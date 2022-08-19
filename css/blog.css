@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+    background: #333;
+    font-size: 1.1em;
+	line-height: 1.5;		
+} 
+
+#content {
+	display: grid;
+	max-width: 700px;
+	margin: 0 auto;
+	grid-template-columns: repeat(1, minmax(150px, auto));
+	grid-auto-rows: repeat(4, minmax(100px, 100px));
+	border-radius: 10px;
+	grid-gap: 20px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+/*	border: 10px solid #23a0cc;*/ /* blue border*/
+}
+
+#content div{
+	background: #ff134a;
+	padding: 30px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+#content div:nth-child(even){
+	background: #23a0cc;	
+}
+#content div:nth-child(3){
+	background: #fff22c;	
+}
+#content div:nth-child(6){
+	background: #fff22c;	
+}
+#content div:nth-child(7), #content div:nth-child(12){
+	background: #23a0cc;	
+}
+#content div:nth-child(8), #content div:nth-child(11){
+	background: #fff22c;	
+}
+
+#content p{
+	color: black;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;	
+}
+.box{
+	border-radius: 12px;
+	text-align: center;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 12px;
+}
+
+/*****Nav**Start******************/
+.nav p{
+	color: whitesmoke;	
+}
+
+.nav{
+	display: grid;
+	max-height: 100%;
+	max-width: 100%;
+	grid-template-columns: repeat(4, minmax(60px, 60px));
+	grid-auto-rows: repeat(10, minmax(80px, .4fr));
+	margin: 0 auto;
+	grid-gap: .5em;
+	grid-column-gap: 1.5em;
+	grid-row-gap: 2%;
+	text-align: center;
+	padding: 10px;
+	justify-content: center;	
+}
+
+.nav div{
+      background-color: purple;
+	  padding: 23px;
+}
+
+.nav div:nth-child(even){
+       background-color: skyblue;
+}
+
+/******Nav Images**Start*****/
+.box29{
+	background-image: url(/images/home_icon.jpg);
+}
+
+.box30{
+	background-image: url(/images/chart_icon.jpg);
+}
+
+.box31{
+	background-image: url(/images/brain_icon.jpg);
+}
+
+.box32{
+	background-image: url(/images/blog_icon.png);		
+}
+/****Nav Images Finish*****/
+
+
+/*****Tipbot settings**start****/
+.baconwrap{
+	display: grid;
+	grid-template-columns:repeat(1, minmax(60px, 60px));
+	grid-template-rows: repeat(1,  minmax(60px, auto));
+	max-width: 100px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	justify-content: center;
+/*	background-color: chocolate;   */
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+
+.baconwrap div:nth-child(even){
+	background: #777;
+	padding: 10px;
+}
+	
+.baconwrap div{
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.tipbot{
+      background-image: url(/images/xrptibot_icon.jpg);	    
+}
+
+.tipbot {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;	  
+}
+.tipbot p{
+	opacity: 0;
+}
+/*******Tipbot settings**finish*********/
+
+/***************************************/
+/****************************************/
+@media screen and (max-width: 390px){
+.nav{
+		grid-gap: 1em;
+		
+ }
+}
+/****************************************/
+@media screen and (max-width: 319px){
+.nav{
+		grid-gap: 4%;
+		grid-template-columns: repeat(4, minmax(55px, 55px));
+	}
+	
+.nav div{
+      background-color: purple;
+	  padding: 21px;
+ }
+}
+/****************************************/
+@media screen and (max-width: 277px){
+.nav{
+		grid-gap:4%;
+		grid-template-columns: repeat(4, minmax(50px, 50px));
+	    font-size: 14px;
+	}
+.nav div{
+      background-color: purple;
+	  padding: 19px;
+ }
+}
+
+/****************************************/
+/****************************************/
+/****************************************/
+@media screen and (max-width: 243px){
+.nav{
+	grid-template-columns: repeat(2, minmax(50px, 50px));
+	grid-gap: 10px;
+}
+	
+.nav div{
+	  padding: 19px;
+ }
+}
+
+/****************************************/
+/****************************************/
+
+@media screen and (max-width: 169px){
+*{
+	margin: 0;
+	padding: 0;
+}	
+	
+.nav{
+   grid-template-columns: repeat(1, minmax(60px, 60px));
+	display: grid;
+	max-height: 100%;
+	max-width: 100%;
+	grid-auto-rows: repeat(10, minmax(80px, .4fr));
+	margin: 0 auto;
+	grid-gap: .5em;
+	grid-column-gap: 1.5em;
+	grid-row-gap: 1em;
+	text-align: center;
+/*	padding: 10px;*/	
+}
+	
+.nav div{
+      background-color: purple;
+	  padding: 23px;
+}	
+	
+#content {
+	max-width: 100%;
+	margin: 0 auto;
+	grid-template-columns: repeat(1, minmax(50px, auto));
+	grid-auto-rows: repeat(4, minmax(100px, 100px));
+	text-align: center;
+	padding: 10px;
+/*	border: 10px solid #23a0cc;*/ /* blue border*/
+}
+
+#content div{
+	background: #ff134a;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+		
+#content p{
+	font-size: 16px;
+	margin:0 auto;
+	text-align: center;
+ }	
+}
+
+
+
+

@@ -1,0 +1,168 @@
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body{
+	font-family: 18thCentury, Arial, Helvetica, sans-serif;
+    background: white;
+    margin: 0 auto;	
+	text-align: center;
+}
+section{  /***Main Background Image***/
+	background-color: white; /***background**/
+	background-position: center;
+	height: 100vh;
+	max-width: 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    margin: 0 auto; 
+}
+/********Nav**Area**Start*******************************/
+.nav{
+	display: grid;
+	max-height: 100%;
+	max-width: 900px;
+	grid-template-columns: repeat(4, minmax(50px, 50px));
+	grid-auto-rows: repeat(10, minmax(80px, .4fr));
+	margin: 0 auto;
+	grid-gap: 15px;
+	text-align: center;
+	padding: 10px;
+	justify-content: center;
+	align-content: center;
+	border-radius: 10px;
+	
+/** box-shadow: 0 0 10px black; ***/
+}
+	
+.nav div{
+      background-color: purple;
+	  padding: 25px;
+}
+
+.nav div:nth-child(even){
+       background-color: skyblue;
+}
+
+.button{
+	height: 60px;
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+}
+/********Nav**Area**Finish*******************************/
+.box{
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+
+
+.box29{
+	background-image: url(/images/home_icon.jpg);
+}
+
+.box30{
+	background-image: url(/images/chart_icon.jpg);
+}
+
+.box31{
+	background-image: url(/images/brain_icon.jpg);
+}
+
+.box32{
+	background-image: url(/images/blog_icon.png);		
+}
+.main_image{
+	margin: 0 auto;
+    max-width: 600px;
+    height:	600px;
+	align-content: center;
+	justify-content: center;
+}
+.media{  /****The Big X Logo*****/
+	height: 600px;	
+}
+ a{
+	text-decoration: none;
+}
+
+/*************************************/
+@media screen and (max-width: 600px){
+section{
+	max-width: 600px;
+	margin: 0 auto;
+	justify-content: center;
+	align-content: center;
+	max-width: 600px;
+	max-height: 300px;
+}
+	
+.nav{
+	max-width: 600px;
+	margin: 0 auto;
+}	
+	
+.media{    /****The Big X Logo*****/
+	height: 375px;	
+}	
+	
+.button{   /**The Download Buttons***/
+	margin: 10px;
+	justify-content: center;
+	align-content: center;	
+	width: 200px;
+	
+}
+}
+
+/**************************************/
+@media screen and (max-width: 750px){
+section{
+	max-width: 550px;
+	margin: 0 auto;
+	justify-content: center;
+	align-content: center;
+}
+	
+.nav{
+	max-width: 300px;
+	margin: 0 auto;
+}	
+	
+.media{
+	width: 300px;
+	max-height: 300px;	
+}	
+
+}
+
+/**************************************/
+@media screen and (max-width: 550px){
+
+	section{
+	max-width: 450px;
+ }
+}
+/**************************************/
+@media screen and (max-width: 450px){
+
+	section{
+	max-width: 450px;
+ }
+}
+
+@media screen and (max-width: 325px){
+
+	section{
+max-width:325px ;
+}
+}
+
+
+
+

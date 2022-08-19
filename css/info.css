@@ -1,0 +1,288 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+	body{
+	margin: 0 auto;
+	max-width: 2600px;
+	font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;	
+	font-size: 1.1em;
+	line-height: 1.5;
+	text-align: center;	
+} 
+/*********Body And Grid Area******************************/
+section{
+	margin: 0 auto;	
+}
+
+
+/******Nav**Area**Start*********************************/
+#content{
+	display: grid;
+	grid-template-columns:repeat(4, minmax(55px, 60px));
+	grid-template-rows: repeat(1,  minmax(30px, auto));
+	max-width: 100%;
+	text-align: center;	
+	font-size: 20px;
+	padding: 15px;
+	justify-content: center;
+	background-color: chocolate; 
+	grid-gap: 10px;
+}
+
+#content div:nth-child(even){
+	background: #777;
+	width: 100%; 
+	height: 100%;
+}
+	
+#content div{
+	padding: 14px;	
+}
+
+.box29 p, .box30 p, .box31 p,
+.box32 p {
+	opacity: 0;
+}
+
+.box29, .box30,
+.box31, .box32 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+.box29{
+	background-image: url(/images/home_icon.jpg);
+}
+
+.box30{
+	background-image: url(/images/chart_icon.jpg);
+}
+
+.box31{
+	background-image: url(/images/brain_icon.jpg);
+}
+
+.box32{
+	background-image: url(/images/blog_icon.png);
+}
+/******Nav**Area**Start**Finish****************/
+
+.box5{  /**Box**5**is**the**charts**Div**/
+    display: flex;
+	justify-content: center;
+	padding: 0;
+	height: 500px;
+	width: 100%;
+	margin: 0;	
+}
+
+#bacon3{   /***Bacon3 is the Whitepaper div**/
+      display: grid;
+	  width: 100%;
+	  grid-auto-columns:repeat(2, minmax(150px, auto));
+	  grid-template-rows: repeat(1,  minmax(100px, auto));
+	  margin: 0 auto;
+}
+
+.whitepaper{
+      display: flex;
+      max-width: 850px;
+      width: 100%;
+      height: 100vh; 
+      margin: 0 auto; 
+}
+
+/***Stats Section website total supply and such **Start***/
+.stats{
+	display: grid;
+    background-color: chocolate; /**changed it from fuschia**/
+	grid-template-columns:repeat(3, minmax(100px, auto));
+	grid-template-rows: repeat(1,  minmax(30px, auto));
+	max-width: 820px;
+	text-align: center;	
+	font-size: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+
+.stats a {
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	
+}
+.stats div{
+	margin: 0 auto;
+}
+.website{
+	color: white;
+}
+
+.total_supply{ 	
+}
+
+.circulating_supply{
+	
+}
+/***Stats Section website total supply and such **Finish***/
+
+/*****Tipbot settings**start****/
+.baconwrap{
+	display: grid;
+	grid-template-columns:repeat(2, minmax(60px, 60px));
+	grid-template-rows: repeat(1,  minmax(60px, auto));
+	max-width: 2600px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	justify-content: center;
+/*	background-color: chocolate;   */
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+
+.baconwrap div:nth-child(even){
+	background: #777;
+	padding: 10px;
+}
+	
+.baconwrap div{
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.tipbot{
+      background-image: url(/images/xrptibot_icon.jpg);	    
+}
+.tipbot{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;	  
+}
+.tipbot p{
+	opacity: 0;
+}
+
+/*****Tipbot settings***finish***/
+
+.footer a, .footer p{
+	font-size: 10px;
+	color: #fff;
+	opacity: 0;
+}
+
+.footer{
+	background-image: url(/images/menagerie_icon.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+/*********************************/
+@media screen and (max-width: 430px){
+.box5{  /**Box**5**is**the**charts**Div**/
+    
+	width: 95%;
+	margin: 0 auto;	
+}	
+	
+.whitepaper{
+	width: 95%;	
+}
+
+body{
+	background-color: #333;
+ }	
+}
+/*********************************/
+@media screen and (max-width: 325px){
+	.stats p{
+		font-size: 18px;
+		
+	}
+}
+@media screen and (max-width: 318px){
+.stats{
+	
+	grid-template-columns:repeat(2, minmax(50px, auto));
+
+}
+}
+/*********************************/
+@media screen and (max-width: 273px){
+
+#content{
+	display: grid;
+	grid-template-columns:repeat(2, minmax(55px, 60px));
+ }
+	
+}
+
+/*********************************/
+@media screen and (max-width: 263px){
+#content{
+	grid-template-columns:repeat(2, minmax(55px, 60px));
+	padding-top:10px;
+}
+
+.stats{
+	grid-template-columns:repeat(1, minmax(50px, auto));
+}
+.stats p{
+	font-size:  16px;	
+}	
+	
+.whitepaper{
+	width: 100%;	
+}
+.box5{  /**Box**5**is**the**charts**Div**/
+    
+	width: 100%;
+	margin: 0 auto;	
+ }
+
+	
+	.box5, .whitepaper{
+		width:95%;
+	}	
+}
+/**************smart watches*******************/
+@media screen and (max-width: 161px){
+
+#content{
+	display: grid;
+	grid-template-columns:repeat(1, minmax(55px, 60px));
+ }
+
+.baconwrap{
+	display: grid;
+	grid-template-columns:repeat(1, minmax(55px, 55px));
+	grid-template-rows: repeat(1,  minmax(60px, auto));
+	margin: 0 auto;
+}
+
+.baconwrap div:nth-child(even){
+	background: #777;
+	padding: 10px;
+}
+		
+.baconwrap div{
+	padding: 18px;
+	border-radius: 10px;
+ }
+	
+}
+

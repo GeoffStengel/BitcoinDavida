@@ -1,0 +1,328 @@
+/********Bitcoin Davida Charts.css****************/
+/**********Desktop*******************************/
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	/**margin: 0 auto;**/
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;	
+	font-size: .8em;
+	line-height: 1.4rem;
+	text-align: center;		
+} 
+
+/***********Section Content Body Area***************************************/
+section{
+/**	background-image: url(/images/beautiful-calm-clouds-206359.jpg);***/
+	background-position: center;
+	height: 88rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#content{
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(4, minmax(80px, 50px));
+	grid-auto-rows: repeat(10, minmax(80px, .2fr));
+	margin: 0 auto;
+	grid-gap: 20px;
+	text-align: center;
+	padding: 10px;	
+}
+
+#content div{
+  background-color: purple;
+	   padding: 30px;
+}
+
+ #content div:nth-child(even){
+  background-color: skyblue;
+}
+
+p{
+	color: #fff;
+	
+}
+
+.box{
+	border-radius: 15px;
+	height: 26px;
+}
+
+
+.box29{
+	background-image: url(/images/home_icon.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box30{
+	background-image: url(/images/chart_icon.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box31{
+	background-image: url(/images/brain_icon.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box32{
+	background-image: url(/images/blog_icon.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+/**************************************************/
+/*******Mobile ***************************/
+@media screen and (max-width: 415px) {
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/***********Section Body Grid Area***************************************/	section{
+	background-image: url(/images/beautiful-calm-clouds-206359.jpg);
+	background-position: center;
+	height: 100em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}		
+#content{
+	display: grid;
+	max-height: 100%;
+	max-width: 100%;
+	grid-template-columns: repeat(4, minmax(65px, 71px));
+	grid-template-rows: repeat(4, minmax(60px, 90px));
+	margin: 0 auto;
+	grid-gap: 1.9em;
+	text-align: center;	
+	justify-content: center;
+}
+	
+#content div{
+  background-color: purple;
+	   padding: 10px;
+}
+
+#content div:nth-child(even){
+  background-color: skyblue;
+	   padding: 10px;
+}
+	
+p{
+	font-size: 12px;
+	
+}
+	
+.box{
+    border-radius: 10px;
+	height: 55px;
+}
+
+}
+
+/**************************************************/
+/*******SMART WATCHES ***************************/
+@media screen and (max-width: 340px) {
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/***********Section Body Grid Area***************************************/
+#content{
+	display: grid;
+	max-height: 100%;
+	max-width: 100%;
+	grid-template-columns: repeat(4, minmax(60px, 65px));
+	grid-auto-rows: repeat(4, minmax(70px, 70px));
+	margin: 0;
+	grid-gap: 1.1em;
+	text-align: center;	
+	justify-content: center;
+}
+	
+#content div{
+    background-color: purple;
+	padding: 5px;
+}
+
+#content div:nth-child(even){
+    background-color: skyblue;
+	padding: 5px;
+}
+	
+section{
+	background-image: url(/images/beautiful-calm-clouds-206359.jpg);
+	background-position: center;
+	height: 85em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+p{
+/***	opacity: 0;	**/
+}
+	
+.box{
+    border-radius: 10px;
+	height:15px;
+	height: 63px;
+}
+	
+}
+/**************************************************/
+/*******Mobile and WATCHES ***************************/
+@media screen and (max-width: 303px) {
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/***********Section Body Grid Area***************************************/
+#content{
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(3, minmax(60px, 70px));
+	grid-auto-rows: repeat(4, 60px);
+	margin: 0 auto;
+    grid-gap: 1.5em;
+	text-align: center;
+	padding: 10px;
+}
+	
+#content div{
+    background-color: purple;
+	padding: 25px;
+}
+
+#content div:nth-child(even){
+    background-color: skyblue;
+	padding: 25px;
+}
+	
+section{
+/**	background-image: url(/images/beautiful-calm-clouds-206359.jpg);***/
+	background-position: center;
+	height: 110em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+p{
+font-size: 15px;	
+}
+	
+.box{
+	background-size: 150%;
+    border-radius: 10px;
+	height: 30px;
+}
+	
+}
+/**************************************************/
+/*******Micro Devices ***************************/
+@media screen and (max-width: 245px) {
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/***********Section Body Grid Area***************************************/
+#content{
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(2, minmax(65px, 72px));
+	grid-auto-rows: repeat(4, 55px);
+	margin: 0 auto;
+    grid-gap: 1.5em;
+	text-align: center;
+	padding: 10px;
+	justify-content: center;
+	}
+	
+#content div{
+    background-color: purple;
+	padding: 10px;
+}
+
+#content div:nth-child(even){
+    background-color: skyblue;
+	padding: 10px;
+}
+	
+section{
+	background-image: url(/images/beautiful-calm-clouds-206359.jpg);
+	background-position: center;
+	height: 160em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+
+	
+	
+.box{
+	background-size: 110%;
+    border-radius: 10px;
+	height: 4em;
+}
+	
+}
+/**************************************************/
+/*******Tiny Devices ***************************/
+@media screen and (max-width: 160px) {
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#content{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(1, minmax(60px, 60px));
+	grid-auto-rows: repeat(4, 60px);
+	margin: 0 auto;
+	grid-gap: 30px;
+/**   grid-gap: 1.3em;**/
+	text-align: center;
+	padding: 0;
+	justify-content: center;
+}
+#content div{
+    background-color: purple;
+	padding: 25px;
+}
+
+#content div:nth-child(even){
+    background-color: skyblue;
+	padding: 25px;
+}
+	
+section{
+	background-color: aqua;
+/**	background-image: url(/images/beautiful-calm-clouds-206359.jpg);**/
+	background-position: center;
+	height: 386em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+	.box{
+	background-size: 110%;
+    border-radius: 10px;
+	height: 1em;
+}
+}

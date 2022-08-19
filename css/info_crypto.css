@@ -1,0 +1,1907 @@
+/***********Section Body Grid Area***************************************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html{  /******Background**Color***Of***Entire****Page********/
+	background-color: antiquewhite;	
+	color: #ffffff;
+}		  
+		  
+section{  /**********************/
+	background-color: #9cd6f5;
+	background-position: center;
+	min-height: 100%;
+	max-width: 700px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    margin: 0 auto;
+}	
+
+p{
+	font-size: 22px; 
+	line-height: 1.7em;
+	letter-spacing: .1em;
+/**	font-family: Palatino, sans-serif;***/
+	padding: 0 5px 0 5px;
+	text-align: left;
+	text-indent: 17px;
+	margin-bottom: 8px;
+}		  
+
+/***********Section Body Grid Area***************************************/
+
+.nav div{
+      background-color: purple;
+	  padding: 6px;
+	border-radius: 10px;
+}
+
+.nav div:nth-child(even){
+       background-color: skyblue;
+}
+
+.nav{
+	display: grid;
+	max-height: 96%;
+	max-width: 700px;
+	grid-template-columns: repeat(4, minmax(55px, 55px));
+	grid-auto-rows: repeat(10, minmax(80px, auto));
+	margin: 0 auto;
+	grid-gap: 4%;
+	text-align: center;
+	padding: 10px;
+	justify-content: center;
+	box-shadow: 0 0 20px black;
+	padding-top: 10px;
+	
+}
+
+ h1{ /******Top Box Has Info On Crypto Text In It**********/
+	max-width: 80%;
+	height: 80%;
+	color: #013e5c;
+	font-size: 5.9em;
+	margin-left: 5%;
+	margin-right: 5%; /***Pushes Right Half Of H1 Header In***/
+	padding-left: 2.5em;
+	line-height: 86px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #1c4594;
+	border: 3px groove #1c4594;
+}	
+		  
+.header{   /******Header Is Top Box Below Nav***********/
+	max-width: 698px;
+	height: 250px;
+	padding-top: 4%;
+	box-shadow: 0 0 20px #1c4594;
+	border: 3px groove #1c4594;
+}
+
+h2{  /***Yellow Text Next To Owl At Top***/
+	font-size: 40px;
+	margin: 2% 1% 0 0;
+	padding-top: 10px;
+ }  
+		  
+.mini_header{ /****Mini Header Dark Blue Div Box, Below Info On Crypto****/
+	height: 70px;
+	background-color: #013e5c;
+	color: #dbb027;
+	margin: 0;
+	margin-bottom: 0;
+}
+
+.owl{
+	width: 19em;
+	float: left;
+	margin-left: 20px;
+	margin-top: -235px;
+ }
+
+/******Padding On Body Basically Bottom Layer*************************/
+ .section1, .section2, .section3, .section4,
+   .section5, .section6, .section7, .section8,
+     .section9, .section10, .section11, .section12,
+       .section13, .section14, .section15, .section16,
+      .section17, .section18, .section19,.section20,
+    .section21, .section22, .section23, .section9_info{
+	padding: 30px 30px 30px 30px;	
+}
+
+/*****This is Top, Bottom, Left And Right Margins On The Sections************************/		  
+.section2, .section4, .section6, .section8, .section10,
+	.section12, .section14, .section16, .section18, .section20,
+	   .section22, .section24{
+	margin: 2% 4% 2% 4%; /**bottom, right, top, left***/	     
+    border-radius: 10px; /***Gives Edges Of The Even Divs A Round Edge******/
+}
+	  
+/******Mint Green Background Color**#50ba69********/		  
+.section1, .section4, .section7, .section10, .section13,
+.section16, .section19, .section22{
+	background-color: #50ba69;
+}			  	
+		  
+/******Sky Blue Background Color***** #2d97d4*****/		  
+.section2, .section5, .section8, .section11, .section14,
+.section17, .section20, .section23{
+	background-color:  #2d97d4;
+}		
+		  
+/******Dark Blue Background Color***** #1c4594*****/		  
+.section3, .section6, .section9, .section12, .section15,
+.section18, .section21, .section24{
+	background-color:  #1c4594;
+} 
+
+/*******Direction  Floats Right*******/
+ .atm2, .ledger_nano_s, .model_t, .girl_online, .gavel,
+   .graph_magni, .icon_globe, .fisher_dude,
+     .section6 img{
+	 float: right;
+}
+
+/*******Direction  Floats Left*******/
+ .vacation_logo, .trezors, .trezor_silver, .charts_icon,
+   .books, .ledger_nano_s, .coinbase_logo, .id_cartoon {
+   float: left;
+}
+
+/*******Border Radius 50% *******/
+ .safety2, .images div, .weighing_options, .vacation_logo,
+   .section6 img, .ledger_nano_s, .trezors, .bottle,
+     .business_dude, .icon_globe{
+	border-radius: 50%;
+}
+
+/*******Margin Top, Bottom 2%******For Some Of Headers*/
+h5, .section5 h5, .section6 h5, .section6 img, .section13 h5, .exchanges{
+	margin-top: 2%;
+	margin-bottom: 2%; 
+}
+
+/*******Margin 0 auto*******/
+ .section3 li, .safety2, .weighing_options, .exchanges,
+   .exchanges p, .exchanges2, .exchanges2 p,
+     .business_dude, .adlogo, .baconwrap,
+       .tipbot, .footer{
+	 margin: 0 auto;
+}
+
+/****Color Of Font***Yellow**#dbb027*/
+ h3, .section3 ul a, .section3 ul, .section4 ul a,
+   .section5 h5, .section7 h5, .section7 a, .section9 h5,
+     .section9 a, .section13 h5, .section15 h5{
+	 color: #dbb027;
+}
+
+/****Color Of Font***Dark Blue**#1c4594*/
+h4, .section4 a, h5, .section4 ul, .section6 h5,
+   .section8 a{
+	color: #1c4594;
+}
+
+h3{
+	font-size: 55px; 
+}		  
+
+h4{
+	font-size: 75px; 
+	text-shadow: -2px 2px 2px #9cd6f5;
+}				  
+		  
+.atm2 /**.safety2***/{
+	border-radius: 10px;
+	box-shadow: 0 0 10px #9cd6f5;
+	border: 6px groove #9cd6f5;
+	shape-image-threshold: 0;
+	margin-top: 5%;	
+	margin-right: 4%;
+ }
+
+/*******Section1***Start**************/
+.section1 p{
+	font-size: 20px;
+}
+
+.section1 a{
+	color: #1c4594;
+}
+/*******Section1***Finish**************/
+
+		  
+/*******Section2***Start**************/		  
+.section2{
+	height: 100%;
+	padding-bottom: 3em;
+	
+}
+
+.section2 a{
+	color: #1c4594;
+}
+.section2 h2{
+	font-size: 5.5em;
+	color: #1c4594;
+	text-shadow: -2px 2px 2px #9cd6f5;
+	padding-bottom: .3em;
+	padding-top: .2em;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #1c4594;
+	border: 6px solid #9cd6f5;
+	max-width: 300px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.atm2{
+	width: 50%;
+	height: 80%;
+	margin-left: 2%;
+ }	
+		  
+/*******Section2***Finish**************/		  
+		  	  
+
+/*******Section3***Start**************/	
+	  
+/*****List Of Coins With Bullet Points Next To**Start********/
+.section3{ 
+	 /**Adjust back layer of section3**/
+	margin: 0 auto;
+	padding: 1.5em 2% 2em 2%;
+	height: 100%;
+}
+
+.section3 h4{
+	padding: 1.5em;
+	color:#9cd6f5;
+	font-size: 24px;
+	text-shadow: 0 0 0 #9cd6f5;	
+}
+.section3 a{
+	margin: 0 auto;
+	width: 4em;
+	height: 2em;
+}
+.section3 p{
+	padding-left: 2%;
+	padding-right: 2%;
+}	
+
+.section3 li {
+	text-align: center;
+    font-size: 15px;
+	padding-left: 0; /*moves the bullet points over***/
+    list-style-type: circle;
+	width: 1em; /*Moves Bullet Points Closer or Further From Text Of Item**changed it from 3em if decide it looks better*/
+	height: 2em; /**Spreds Items Out Up Or Down**/
+	margin: 0 auto;
+ }
+
+ .section3 ul a{
+	max-height: 25px;
+}
+
+.section3 ul{
+	width: 90%;
+	height: 100vh; /**Adjust For Height Container Hodling Names **/
+	display: inline-grid;
+	grid-template-columns: repeat(6, 1fr);
+	/**
+	grid-template-rows: repeat(17, minmax(20px, auto));****/
+	grid-auto-rows: minmax(35px, auto);
+	grid-gap: .2em;
+	text-align: center;
+	padding: 3em 1em 3em 1em; /**Adjust Padding Around Entire Div On Inside*****/
+	justify-content: center;
+	box-shadow: 0 0 20px black;
+	list-style-image: url(/images/check_box.png);
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+/*****List Of Coins With Bullet Points Next To**Start********/
+/**************************************************/
+
+.safety2{ /**Image Of Red Lock Icon*****/
+	display: block;
+	width: 100%;
+	box-shadow: 0 0 20px #1c4594;
+	border: 3px groove #1c4594;
+	shape-outside: circle();
+	shape-image-threshold: 0;
+	margin-top: 1em;
+ }		  
+/*******Section3***Finish**************/		  
+		  
+/*******Section4***Start**************/	
+
+/****Where it Says Research And Below Images**Start ***********/
+.images{ /***The Grid That Hodls Images With Scale, Newspaper Dude, Sherlock ****/
+	display: grid;
+	max-width: 100%;
+	max-height: 22em; /***Adjust Height Of Image Div  **/
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: repeat(2, 12em);
+	grid-gap: 1em;
+	text-align: center;
+	padding: 0;
+	justify-content: center;
+	margin:0 auto;
+/*** box-shadow: 0 0 20px black; ***/
+}	
+ 
+.images div{
+      background-color: #9cd6f5;
+	  margin: 0 auto;
+	  width: 100%;	
+}
+
+.images p{
+	padding-top: 10em;/**Adjust Distance Text Is From Image**/
+	width: 8em; /**Adjust Width Of Box Giving Text More Room**/
+	height: 4em;/**Adjust Height Of Paragraph**/
+	text-align: center;
+	padding-left: 0;
+	text-indent: 0;
+	margin: 0 auto;
+	justify-content: center;
+	align-content: center;
+}
+
+.newspaper_dude{ /***Image Guy Reading A Newspaper ****/
+	background-image: url(/images/reading.jpg);
+ }
+.youtube_guy{ /***Image Youtube Logo****/
+    background-image: url(/images/youtube.png);
+ }		  
+.sherlock{  /***Image Of Sherlock Guy And Magnify Glass****/
+    background-image: url(/images/detective.png);
+}
+
+.newspaper_dude, .youtube_guy, .sherlock{
+	width: 90%; /***Adjust Width Of Image***/
+	height: 48%; /***Adjust Height Of Image***/
+	background-position: center; /***Image With Scale, Newspaper Dude, Sherlock ****/
+	background-size: cover;    /***Controls A Few Of Their Properties Combined Easier Adjustment****/
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}		  
+/****Where it Says Research And Below Images**Finish ***********/
+/*****************************/
+
+h5{
+	font-size: 70px;
+	text-shadow: -1px 2px 4px #9cd6f5;
+}
+
+.section4 h5{
+	padding-bottom: .5em;
+	
+}
+
+.weighing_options{ /***Image With Old School Scale ****/
+	display: block;
+	width: 40%; /***Adjust Width Of Image***/
+	height: 48%; /***Adjust Height Of Image***/
+	box-shadow: 0 0 20px #1c4594;
+	border: 3px groove #1c4594;
+	margin-bottom: 40px;
+}
+
+.section4 li{
+	text-align: left;
+    font-size: 20px;
+    margin-right: .8em;
+	padding-left: 0; /*moves the bullet points over***/
+    list-style-type: circle;
+	width: 8em; /*Moves Bullet Points Closer or Further From Text Of Item***/
+	height: 4.5em; /**Spreds Items Out Up Or Down**/	
+}
+
+.section4 ul{
+    display: inline-grid;
+    margin-left: 8%; 
+	list-style-image: url(/images/check_box.png);
+}
+.images{
+	height: 25em;/**Height Of Image Div Hodls 3 Images And Text**/
+}
+.images p {
+	text-align: center;
+}
+
+/*******Section4***Finish**************/		  
+		  
+/*******Section5***Start**************/	
+.section5 h5{
+	font-size: 60px;
+}
+
+.vacation_logo{ /****Image With Vacation Stuff Like Plane, Suitecase ******/	
+	width: 50%;
+	shape-outside: circle();
+	margin-right: 4%;
+	box-shadow: 0 0 10px #9cd6f5;
+	border: 3px groove #9cd6f5;
+}
+
+/*******Section5***Finish**************/	
+		  
+/*******Section6***Start**************/
+.section6 h5{ /*******Controls Heading Text "Safety" In Section 6 *******/
+	text-shadow: 0 0 10px  #9cd6f5;
+	font-size: 6em;
+}
+.section6 a{
+	color: #9cd6f5;
+}
+.section6 img{ /*******Controls Some Image Elements In Section 6 *******/
+	width: 50%;
+	shape-outside: circle();
+	margin-left: 4%;
+	box-shadow: 0 0 10px #9cd6f5;
+	border: 3px groove #9cd6f5;
+}
+
+.ledger_nano_s{ /*******Image With Ledger Nano S Inside Globe *******/	
+	width: 50%;
+	shape-outside: circle();
+	margin-right: 4%;
+	box-shadow: 0 0 10px #9cd6f5;
+	border: 3px groove #9cd6f5;
+}
+/*******Section6***Finish**************/		  
+		  
+/*******Section7***Start**************/
+.trezors{ /*******Image With Ledger Nano S Inside Globe *******/
+	width: 37%;
+	shape-outside: circle( );
+	shape-image-threshold: 0;
+	margin-right: 9%;	
+}
+
+.model_t { /*******Image Of Model T *******/
+	max-width: 25%;
+	border-radius: 20%;
+	shape-outside: circle(10);
+	shape-image-threshold: 0;
+}
+
+.trezor_silver { /*******Image Silver Trezor *******/
+	width: 250px;
+	height: 230px;
+	shape-outside: content-box polygon( 4.6% 46%, 6.7% 38.2%, 26.2% 19.5%, 36.3% 18.6%, 47% 23.5%, 76.5% 38.3%, 85% 44.7%, 92.7% 52.9%, 94.8% 61.7%, 91.5% 74.4%, 84.4% 81.7%, 71.5% 81.2%, 57.3% 77.9%, 46.8% 72.9%, 7.9% 52.6% );
+}
+
+/*******Section7***Finish**************/
+		  	  
+/*******Section8***Start**************/
+/**Girl Online Shopping Illustration*****/
+/*******Section8***Finish**************/		  
+		  
+/*******Section9***Start**************/	
+.section9 h5{
+	font-size: 4em;
+}
+
+.bottle p{
+	font-size: 12px;
+	text-align: center;
+	text-indent: 0;
+}
+
+.bottle{ /**bottle is  collection of the exchanges**/ /***grouped together in a div called bottle**/
+	width: 2em;
+	height: 2em;
+	text-align: center;	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
+
+/**First List Of Exchanges Start**/
+.exchanges{ /**The Div That Hodls All The Lists And Buttons Of Exchanges**/
+	display: grid;
+	max-height: 96%;
+	max-width: 38em;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 2%;
+	text-align: center;
+	padding: 20px;
+	justify-content: center;
+/***	box-shadow: 0 0 20px black;**/
+	padding-top: 1em;	
+}
+
+.exchanges p{
+	color: white;
+	text-align: left;
+	font-size: 1em;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.exchanges div{
+      background-color: purple;
+	  padding: 25px;
+}
+
+.exchanges div:nth-child(even){
+       background-color: skyblue;
+}
+/**First List Of Exchanges Finish**/
+
+
+/**Second List Of Exchanges Start**/
+.exchanges2{ /**The Div That Hodls Lists And Icons Of Reccomended Exchanges**/
+	display: grid;
+	height:7em;
+	max-width: 38em;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 2%;
+	text-align: center;
+	padding: 20px;
+	justify-content: center;
+/**	box-shadow: 0 0 20px black;**/
+	padding-top: 1em;	
+}
+
+.exchanges2 p{
+	color: white;
+	text-align: left;
+	font-size: 1em;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.exchanges2 div{
+      background-color: purple;
+	  padding: 25px;
+}
+
+.exchanges2 div:nth-child(even){
+       background-color: skyblue;
+}
+/**Second List Of Exchanges Finish**/
+/*****Images For The Icons*************************/
+.binance{   /****Binance Image For List Of Exchanges**/
+	background-image: url(/images/binance_coin.png);
+ }
+.bitfinex{
+	background-image: url(/images/bitfinex_icon.png);
+}
+.poloniex{
+	background-image: url(/images/poloniex_icon.png);
+}
+.bittrex{
+	background-image: url(/images/bittrex_icon2.png);
+}
+.bitstamp{
+	background-image: url(/images/bitstamp_icon.png);
+}
+.coinbase{
+	background-image: url(/images/coinbase_icon.png);
+}
+.mercatox{
+	background-image: url(/images/mercatox_icon.png);
+}
+.coinone{
+	background-image: url(/images/coinone_icon.png);
+}
+.kraken{
+	background-image: url(/images/kraken_icon.png);
+}
+.bithumb{
+	background-image: url(/images/bithumb_icon.png);
+}
+.korbit{
+	background-image: url(/images/korbit_icon.png);
+}
+.coinbase_pro{
+	background-image: url(/images/coinbase_pro_icon.png);
+}
+
+.business_dude{
+	background-color: #9cd6f5;
+}
+
+.exchanges_baconwrap{
+	margin: 2%;
+	border-radius: 8%;
+	margin-bottom: 10%;
+}
+
+.section9_info{
+	box-shadow: 0 0 2px #9cd6f5;
+	border: 3px groove #9cd6f5;
+	margin: 2%;
+	border-radius: 2em;
+}
+
+/*******Section9***Finish**************/
+		  
+/*******Section10***Start**************/
+
+.gavel{
+	width: 400px;
+	height: 800px;
+	margin: 82px -27px 0 0;
+	shape-outside: content-box polygon( 12.3% 1%, 88.8% 0.2%, 89.6% 23%, 81% 23%, 60.6% 23.3%, 58.5% 24.8%, 56.8% 27%, 57.4% 31%, 58.2% 48.4%, 58.7% 61.2%, 57.1% 73.6%, 56.6% 95.8%, 59.8% 96.1%, 59.7% 98.1%, 51.6% 98.6%, 43.6% 98%, 42.1% 96.5%, 44.2% 96%, 45.2% 95.5%, 45.5% 89.3%, 45.9% 84.7%, 45.6% 81.1%, 45.6% 77.4%, 45.4% 70.4%, 43.5% 58.7%, 47.1% 40.8%, 46.9% 29.4%, 45.4% 26.5%, 42.4% 23.4%, 13.5% 23.4%, 10.4% 13.9% );
+	shape-margin: 2px;
+}
+.section10 h5{
+	margin:0 auto;
+	font-size: 3.2em;
+	padding: .3em .3em .3em .3em;
+	margin-bottom: 20px;
+	height: 100%;  /***linear-gradient(45deg, #6eff90, #9cd6f5, #6eff90 )***/
+}
+
+/*******Section10***Finish**************/	
+		  
+/*******Section11***Start**************/
+.section11 h5{
+	font-size: 8em;
+	color: #dbb027;
+	padding-bottom: 2%;
+}
+.section11 a{
+	color: #dbb027;
+}
+.section11 p{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.section11{
+	padding: 1em 2em 3em 2em;
+}
+
+.charts_icon{
+	float: left;
+	width: 70%;
+	height: 70%;
+	margin: 6% 2% 0 3px;
+	shape-outside: content-box polygon( 0.8% 3.4%, 4.2% 1.3%, 7.2% -0.4%, 92.2% -0.6%, 95.2% 1.1%, 97.9% 2.5%, 100% 5.1%, 100.8% 7.1%, 100.7% 66.2%, 100.5% 92.7%, 98.5% 95.8%, 95.7% 98.9%, 92.4% 100.6%, 9.8% 100.3%, 5.3% 99%, 1.5% 96.3%, -0.8% 91.9%, -0.6% 6% );
+	shape-margin: 20px;
+}
+/*******Section11***Finish**************/		  
+
+/*******Section12***Start**************/
+.section12 h5{
+	color:#9cd6f5;
+}
+
+.graph_magni{
+	width: 80%;
+	height: 80%;
+	margin: 1%;
+	shape-outside: content-box polygon( 18.8% 16.2%, 31% 13.4%, 29% 1.7%, 32.8% 1.5%, 38.2% 1.8%, 48.7% 0.7%, 60.4% 1.5%, 69.3% 6.5%, 82.8% 10.2%, 85.6% 12%, 85% 35.3%, 89.2% 41.5%, 89.1% 63.7%, 93.2% 90.5%, 85.6% 92.9%, 75.3% 95.1%, 61.6% 97%, 42.9% 95.5%, 35.2% 96.1%, 27.5% 92.5%, 25% 89%, 22.5% 86.5%, 18.1% 86.3%, 13.9% 83.2%, 14.7% 65.9%, 15.3% 61.2%, 13% 59.1%, 14.2% 52.2%, 11.9% 35%, 13.4% 29.2%, 16.2% 24.3%, 19.2% 22.4% );
+}
+/*******Section12***Finish**************/		  
+		  
+		  
+/*******Section13***Start**************/
+.section13 h5{ /******More Research*****/
+	text-shadow: -2px 5px 5px  #9cd6f5;
+	font-size: 6em;
+}
+
+.books{
+	float: left;
+/**	width: 562px;
+	height: 652px;***/
+	margin: 1px 0 0 -18px;
+	shape-outside: content-box polygon( 10.5% 8.9%, 57.7% 0, 59.8% -0.4%, 74.6% 2%, 72% 44.4%, 100.4% 60.9%, 100.4% 75.6%, 45% 100.5%, 19.2% 83.3%, 13% 92.8%, 7.5% 94.4%, -0.6% 83%, 7.3% 72.9%, 7% 59.5%, 10.1% 58.9% );
+	shape-margin: 2px;
+}
+/*******Section13***Finish**************/
+		  
+/*******Section14***Start**************/
+.section14{
+	padding-bottom: 80px;
+	padding-top: 10px; 
+}
+.section14 h5{
+	padding-bottom: 10px;
+	padding-top: 10px; 
+}
+
+.icon_globe{ /**Globe With All Social Media Icons**/
+	width: 362px;
+	height: 362px;
+	margin: 1px -2px 0 0;
+	box-shadow: 0 0 10px #9cd6f5;
+	border: 3px groove #9cd6f5;
+	shape-outside: content-box circle( 176.5px at 174.5px 179.5px );
+	
+}
+/*******Section14***Finish**************/		  
+		
+
+/*******Section15***Start**************/
+.section15 h5{
+	font-size: 6em;
+	text-shadow: -2px 4px 5px #9cd6f5;
+}
+
+.clipboard_icon{
+	float: left;
+	width: 70%;
+	height: 70%;
+	margin: 2% 2% -2% -3px; /***Top, Right, Bottom, Left***/
+	shape-outside: content-box polygon( 4.8% 5.8%, 21.1% 5.5%, 20.5% 1.6%, 22.7% 0.2%, 25% -0.4%, 78.7% -0.1%, 79.9% 1.7%, 79.4% 5.5%, 97.5% 5.6%, 99.8% 7%, 101.3% 9.1%, 100.3% 97.8%, 98.3% 99.5%, 92.8% 100.4%, 45% 100.5%, 3.9% 100.7%, 1.3% 99.9%, -0.3% 98.1%, -0.6% 21.2%, -0.3% 8.8%, 1.5% 6.7% );
+	shape-margin: 20px;
+}
+/*******Section15***Finish**************/		  
+  
+
+/*******Section19***Start**************/
+.section19 a{
+	color: #dbb027;
+}
+
+.section19 h6{
+	font-size: 90px;
+	padding-bottom: 10px;
+	color: #dbb027;
+	text-shadow: -1px 2px 4px #9cd6f5;
+}
+.statistics_icon{
+	width: 100%;
+	margin: 0 auto;
+	border-radius:20px;
+	margin-top: 10px;
+}
+/*******Section19***Finish**************/
+		  
+/*******Section20***Start**************/
+.section20 h7{
+	font-size: 90px;
+	color: #9cd6f5;
+}
+
+.boy_teacher{
+	float: right;
+	width:70%;
+	border-radius: 20px;
+}
+/*******Section20***Finish**************/		  
+	  	  
+ .ledger_nano_s, .coinbase_logo,
+ .id_cartoon, .fisher_dude{
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;	
+	shape-image-threshold: 0;
+	margin: 2%;	
+}
+	
+  .fisher_dude{
+   margin-left: 2%;
+   width: 250px;
+   height: 300px; 
+   border-radius: 20px;
+}	
+	
+ .ledger_nano_s, .coinbase_logo, .id_cartoon{
+	margin-right: 3%;
+}
+
+.ledger_nano_s{
+    width: 40%;
+	height: 40%;	
+}	
+	
+.coinbase_logo{
+	width: 125px;
+	height: 125px;		
+}
+
+.id_cartoon{
+	width: 250px;
+	height: 250px;		  
+}
+
+a{
+	text-decoration: none;
+}
+
+.box{
+	border-radius: 15px;
+	text-align: center;	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*****Text Under Nav, And Other Elements With Box ID******************/
+ .box29 p, .box30 p, .box31 p, .box32 p, .adlogo a{
+	opacity: 0;	
+}
+/*****Images In Nav ***************/
+ .box29, .box30, .box31, .box32{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+/************Nav Start*************/
+.box29{
+	background-image: url(/images/home_icon.jpg);
+}
+
+.box30{
+	background-image: url(/images/chart_icon.jpg);
+}
+
+.box31{
+	background-image: url(/images/brain_icon.jpg);
+}
+
+.box32{
+	background-image: url(/images/blog_icon.png);	
+}
+/************ Nav Images Finish *************/
+
+.blog2{
+	margin-bottom: 20px;
+}
+
+.adlogo{   /**Trezor ** Ad ** Logo ** At ** Bottom***/
+	background-image: url(/images/trezor_ad.jpg);
+	width: 250px;
+	height: 200px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 20px black;
+}
+
+/**********Tipbot Settings**Start**********/
+.baconwrap{
+	display: grid;
+	grid-template-columns: repeat(2, minmax(60px, 60px));
+	grid-template-rows: repeat(1,  minmax(60px, auto));
+	max-width: 700px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	justify-content: center;
+	grid-gap: 10px;
+}
+
+.baconwrap div:nth-child(even){
+	background: #777;
+	padding: 10px;
+}
+	
+.baconwrap div{
+	padding: 10px;
+	border-radius: 10px;
+}
+ 
+.tipbot{
+      background-image: url(/images/xrptibot_icon.jpg);	    
+}
+
+.tipbot {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.tipbot p{
+	opacity:0 ;
+}
+
+/***********Tipbot settings***finish*********/
+
+.footer{
+	background-image: url(/images/menagerie_icon.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer p{
+	color: #fff;
+	opacity: 0;
+}
+/************MEDIA QUERIES START***********************************************/
+/*************************************************/
+/******Media Query*******************************************/
+@media screen and (max-width: 615px){   /****Media 615px And Under********/                /*****615px******/
+h2{  /***Yellow Text Next To Owl At Top***/
+	font-size: 35px;
+	margin: 2% 1% 0 0;
+	padding-top: 10px;
+ }  
+}
+
+@media screen and (max-width: 600px){   /****Media 600px And Under********/                  /*****600px******/
+.header{
+	padding-right: ;/***Right Of Chalk Board And Wall*****/
+	}
+	
+h1{ /******Top Box Has Info On Crypto Text In It**********/
+	width: 58%;
+	font-size: 4.7em;
+	line-height: 68px;
+	padding: .2em -1.5em .1em 3.4em; /***Top, Right, Bottom, left  ***/
+	margin: 0 auto;
+	margin-left:  5%; /***Left Space Between h1 box And Body****/
+}		
+	
+.owl{
+	width: 50%;	
+	margin-left: 20px;
+	margin-top: -215px;
+ 
+}	
+	
+/********Section1 Start*******************/	
+h2{  /***Yellow Text Next To Owl At Top***/
+	
+	margin: 2% 0 0 0;
+	padding-top: 10px;
+ }  		
+/********Section2 Start*******************/	
+
+/***************Section4******************/
+.images{ /***The Grid That Hodls Images With Scale, Newspaper Dude, Sherlock ****/
+	width: 100%;
+	height: 19em; /***Adjust Height Of Image Div****/
+	grid-gap: 1.1em;
+	text-align: center;
+}
+
+.newspaper_dude, .youtube_guy, .sherlock{
+	width: 8em; /***Adjust Width Of Image***/
+	height: 8em; /***Adjust Height Of Image***/
+}		  	
+	
+.images p{
+	margin: 0 auto;
+	padding-top: 7em; /**Distance Text Is From Image**/
+	height: 15em; /**Adjust Height Of Paragraph**/
+	width: 6em; /**Adjust Width Of Box Giving Text More Room**/
+	padding-right: 0;
+}
+
+/***Section4 Finish***********/
+	
+/********Section9 Start*******************/
+.exchanges{
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: repeat(10, minmax(80px, 80px));
+	grid-gap: 15%;
+	padding: 10px;
+	padding-top: 1em;
+	padding-bottom: 5%;
+}
+	
+.exchanges2{
+	grid-template-columns:  repeat(3, 1fr);
+	grid-auto-rows: repeat(10, minmax(80px, 80px));
+	grid-gap: 15%;
+	padding: 10px;
+	padding-top: 1em;
+	padding-bottom: 6em;
+}	
+
+.section9_info{
+	margin: 1%;
+	border-radius: 2em;
+	padding: 1em 1em 1em 1em;
+}
+/********Section9 Finish*******************/
+/****Section13**********/
+.books{
+	width: 100%;	
+ }		
+}
+
+/****************/
+/*************************************************/
+/******Media Query*******************************************/
+
+@media screen and (max-width: 550px){     /****Media 550px And Under********/               /*****550px******/
+
+p{
+	font-size: 20px; 
+	line-height: 1.6em;
+	letter-spacing: .1em;
+/**	font-family: Palatino, sans-serif;***/
+	padding: 0 5px 0 5px;
+	text-align: left;
+	text-indent: 17px;
+}		  	
+
+h1{ /******Top Box Has Info On Crypto Text In It**********/
+	width: 55%;
+	height:75%;
+    padding-top: 30px;
+}	
+/********Section1 Start*******************/	
+h2{  /***Yellow Text Next To Owl At Top***/
+	font-size: 2.0em;
+	margin: 2% 0 0 0;
+	padding-top: 15px;
+ }  
+
+/*************Section3 Start***********************/	
+.section3{
+	height: 158vh; /***Adjust Height Of Entire Section3 Or Div Basically****/
+	padding: 1em 1em 2em 1em; /***Top, Right, Bottom, Left ***/
+	
+}
+
+.section3 h4{
+	padding: 1.5em;
+	font-size: 24px;
+	text-shadow: 0 0 0 #9cd6f5;	
+}
+.section3 a{
+	width: 100%; /**This box wider that holds Abreviated Name***/
+	height: 25px;
+	padding: 0px;
+}
+.section3 p{
+	padding-left: 2%;
+	padding-right: 2%;
+}	
+
+.section3 li {
+    font-size: 12px;
+    margin-right: .8em;
+	/**padding-left: ; /*moves the bullet points over***/
+    list-style-type: circle;
+	width: .1em; /*Moves Bullet Points Closer or Further From Text Of Item**changed it from 3em if decide it looks better*/
+	height: 2em; /**Spreds Items Out Up Or Down**/
+	margin: 0 auto;
+ } 
+		
+.section3 ul a{
+	max-height: 25px;
+}
+.section3 ul{
+	height: 123vh; /**Adjust For Height Container Hodling Names **/
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: minmax(30px, auto);
+	grid-column-gap: .4em;
+	grid-gap: 1%;
+	padding: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 25px;
+}	
+/***Section4**Start*********************/
+.weighing_options{
+	/***max-width: 18em;
+	height: 9em;***/
+	width: 90%; /***Adjust Width Of Image***/
+	height: 48%; /***Adjust Height Of Image***/
+	margin-bottom: 2.5em; /**Gives Space Between Scale Image And Bullet Points Below****/
+}	
+/***Section4**Finish*********************/
+	
+/*****Section10***Start***********/
+.gavel{
+  width: 50%;	
+	height: 50%;
+}
+/*****Section10***Finish***********/	
+}
+/******Media Query*******************************************/
+
+@media screen and (max-width: 500px){ /****Media 500px And Under********/                    /*****500px******/
+	
+.header{   /******Header Is Top Box Below Nav***********/
+	height: 190px;
+	max-width: 98%;
+	
+}
+
+h1{ /******Top Box Has Info On Crypto Text In It**********/
+	max-width: 58%;
+	height: 70%; /******/
+	font-size: 3.4em;
+	line-height: 1em;
+	margin-right: 0;
+}			
+	
+	
+.mini_header{  /****Mini Header Is Dark Blue Div Box, Below Info On Crypto******/
+	height: 60px;
+	background-color: #013e5c;
+	color: #dbb027;
+	margin: 0;
+	margin-bottom: 0;
+}	
+/********Section1 Start*******************/	
+
+h2{  /***Yellow Text Next To Owl At Top***/
+	font-size: 1.7em;
+	margin: 2% 0 0 0;
+	padding-top: 10px;
+ }  	
+/********Section2 Start*******************/
+.owl{
+	width: 50%;
+	height:14em;
+	float: left;
+	margin-left: 10px;
+	margin-top: -175px; /*adjust owl up or down***/
+ }
+	
+.atm2{
+	display: block;
+	width: 50%;
+	justify-content: center;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 10px;
+ }		  
+/*******Section2***Finish**************/	
+	
+	
+/******Section4***********/
+	
+.images{ /***The Grid That Hodls Images With Scale, Newspaper Dude, Sherlock ****/
+	margin: 0 auto;
+	max-width: 700px;
+	height: 20em;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: repeat(5, minmax(1em, 4em));
+	grid-gap: 2em;
+	text-align: center;
+	justify-content: center;
+/*** box-shadow: 0 0 20px black; ***/
+}
+	
+.images p{
+	padding-top: 7em; /**Distance Text Is From Image**/
+	height: 8em; /**Adjust Height Of Paragraph**/
+	width: 6.2em; /**Adjust Width Of Box Giving Text More Room**/
+	padding-right: 0;
+	text-align: center;
+	text-indent: 0;
+}
+	
+.images div:nth-child(){
+		padding: 25px;
+}
+	
+.newspaper_dude, .youtube_guy, .sherlock{
+	width: 8em;/***Adjust Size Of Images******/
+	height: 8em;
+	margin: 0 auto;
+}
+	
+/*******Section4***Finish**************/
+
+.section6 h5 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+	
+.section7 h5{
+		margin-top:  0;
+	padding-bottom: 10px;
+}
+	
+/***Section9****/	
+.binance p, .binance a{
+	color: plum;
+	text-align: center;
+	padding: 0;
+}
+	
+/*******Section10***Start**************/
+
+/********Section13 Start*******************/
+.books{
+	/**width: 18em;
+	height: 20em;***/
+	
+}
+/********Section13 Finish*******************/
+	
+/********Section15 Start*******************/
+.section15 h5{
+   font-size: 70px;
+   border-radius: 20px;
+}
+/********Section15 Finish*******************/	
+}
+/********Media ********466px And Less***********/
+@media screen and (max-width: 466px){  /****Media 466px And Under********/             /*****466px******/
+.header{
+	max-width: 99%;
+	margin: 1px;
+}	
+	
+h1{
+	max-width: 60%;	
+}	
+	
+/******Section3***********/	
+.section3{
+	height: 164vh; /***Adjust Height Of Entire Section3 Or Div Basically****/
+}
+	
+/******Section4***********/
+.section4{
+	padding-bottom: 4em;
+}
+
+.images{ /***The Grid That Hodls Images With Scale, Newspaper Dude, Sherlock ****/
+	height: 60em;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 6.5em;
+	text-align: center;
+	padding: 0;
+	justify-content: center;
+	margin: 0 auto;
+}
+	
+.images p{ /***Div With Images Of Newspaper Dude, Youtube Icon, And Sherlock******/
+	padding-top: 12.3em; /**Distance Text Is From Image**/
+	height: 4em; /**Adjust Height Of Paragraph**/
+	max-width: 35em; /**Adjust Width Of Box Giving Text More Room**/
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	text-indent: 0;
+	margin: 0 auto;
+}
+
+.newspaper_dude, .youtube_guy, .sherlock{
+	margin: 0 auto;
+	width: 15em;/***Adjust Size Of Images******/
+	height: 15em;
+	padding-left: 0;
+ }
+	
+.baconham{
+	padding-top: 42em; /****Moves Div Up And Down Adjusts Away From Image Div Above It****/
+	height: 100%;	
+}	
+.baconham h5{ /**Weigh Your Options Text***/
+	font-size: 4em;
+}
+	
+.detective{
+	padding-bottom: 100em;	
+}
+	
+/**********Section5**Start****************/	
+.vacation_logo{ /****Image With Vacation Stuff Like Plane, Suitecase ******/	
+	width: 70%;
+}
+/********Section5 Finish*******************/	
+	
+	
+/*****Section11*****Start*************/	
+.section11 h5{/**Adjusting The Header Word "Trading"***********/
+	font-size: 6em;
+}
+/*****Section11*****Finish*************/		
+}
+
+@media screen and (max-width: 423px){
+.section4 li{ /***LI Tags Under Scale Illustration***/                                  /*****423px******/
+    font-size: 16px;
+    margin-right: .8em;
+	padding-left: 0; /*moves the bullet points over***/
+    list-style-type: circle;
+	width: 6em; /*Moves Bullet Points Closer or Further From Text Of Item***/
+	height: 4.5em; /**Spreds Items Out Up Or Down**/	
+ }
+	
+img.id_cartoon{
+	display: block;
+	width: 90%;
+	height: 90%;
+ }		
+}
+
+/***********************************************/
+@media screen and (max-width: 400px){  /****Media 400px And Under********/               /*****400px******/
+
+	/**Adjusts The Padding****/
+.section1, .section2, .section3, .section4,
+.section5, .section6, .section7, .section8,
+.section9, .section10, .section11, .section12,
+ .section13, .section14, .section15, .section16,
+ .section17, .section18, .section18, .section19,
+ .section20, .section21, .section22, .section23,
+ .section9_info{
+	padding: 2em 1em 2em 1em;
+}	
+	
+.header{   /******Header Is Top Box Below Nav***********/
+	height: 200px;
+	padding-right: 0;
+}
+
+h1{ /******Top Box Has Info On Crypto Text In It**********/
+	width: 55%;
+	padding-right: 0;
+/**	padding-left: 27%;**/
+	font-size: 3.0em;
+	
+}			
+	
+h2{  /***Yellow Text Next To Owl At Top***/
+	font-size: 1.6em;
+	margin: 0 0 0 0;
+	padding-top: 0;
+}  
+	
+/********Section2 Start*******************/
+.owl{
+	width: 55%;
+	height: 14em;
+	float: left;
+	margin-left: 10px;
+	margin-top: -185px; /*adjust owl up or down***/
+ }
+/********Section2 Finish*******************/
+	
+	
+/*****Section3***Start*****************/
+.section3{
+	height: 164vh; /***Adjust Height Of Entire Section3 Or Div Basically****/
+	padding: 1em 1em 5em 1em; 
+	/***Top, Right, Bottom, Left ***/
+}
+/*****Section3**Finish*****************/
+	
+/********Section5 Start*******************/
+.section5 h5{   /***Padding Bottom On Traveling Text***/
+		padding-bottom: .5em;	
+}
+.section5{
+		padding-top: .3em;
+}
+	
+.vacation_logo{ /****Image With Vacation Stuff Like Plane, Suitecase ******/	
+	width: 70%;
+}
+/********Section5 Finish*******************/
+/********Section8 Start*******************/	
+.section8 h5{
+	margin-top: 0;
+	padding-bottom: 10px;
+}	
+.section8{
+	padding-top: 10px;
+}	
+/********Section8 Finish*******************/
+	
+/********Section9 Start*******************/
+.section9{
+	padding-top: 10px;
+}	
+	
+.section9 h5{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+	
+.exchanges{
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: repeat(6, minmax(80px, 80px));
+	grid-column-gap: 8%;
+	grid-row-gap: 20%;
+	text-align: center;
+	padding: 10px;
+	justify-content: center;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	padding-top: 2em;
+}
+	
+.exchanges2{
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 8%;
+	grid-row-gap: 20%;
+	text-align: center;
+	padding: 10px;
+	justify-content: center;
+	padding-top: 1em;	
+	padding-bottom: 8em;
+}	
+.business_dude{
+	margin: 2em 0 2em 0;
+}
+/********Section9 Finish*******************/
+	
+	
+/*******Section10***Start**************/
+.section10{
+	padding-top: 20px;	
+}	
+	
+.section10 h5{
+	font-size: 3.2em;
+    border-radius: 20px;
+	padding: .1em .3em .3em .3em;
+	margin-bottom: 20px;
+	height: 100%;  /***linear-gradient(45deg, #6eff90, #9cd6f5, #6eff90 )***/
+}
+
+	/*****Section10***Start***********/
+.gavel{
+  width: 70%;	
+	height: 50%;
+}
+/*****Section10***Finish***********/	
+/****Section11*****Start*********/
+.section11{
+		padding-top: 10px;
+}	
+	
+.section11 h5{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+	
+.charts_icon{
+	display: block;
+	width: 93%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}	
+	
+/*******Section12*****Start************/
+.section12{
+		padding-top: 10px;
+}	
+	
+.section12 h5{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}	
+	
+.graph_magni{
+	width: 100%;
+	height: 90%;
+}
+/*******Section12*****Finish************/
+	
+/***Section13***/
+.section13{
+		padding-top: 10px;
+}	
+	
+.section13 h5{ /******More Research*****/
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-shadow: -2px 5px 5px #9cd6f5;
+	font-size: 5em;
+	
+}
+	/**Section14****/
+.section14{
+	padding-top: 10px;	
+}	
+.section14 h5{
+	padding-top: 10px;
+}	
+	
+.icon_globe{ /**Globe With All Social Media Icons**/
+	width: 220px;
+	height: 220px;
+}
+	
+/**Section15****/
+.section15{
+	padding-top: 10px;
+	
+}	
+.section15 h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}		
+/**Section18****/
+.section18{
+	padding-top: 10px;
+}	
+.section18 h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+ }	
+.section19{
+	padding-top: 10px;	
+ }		
+}
+
+/**********MEDIA********385px And Under************/
+@media screen and (max-width: 385px){                                           /*****385px******/
+.owl{
+	margin-top: -165px;	
+}
+	
+.section3{
+	height: 185vh;
+}
+.section3 li {
+	font-size: 11px;
+}
+	
+.section3 ul{
+	width: 95%;
+	height: 150vh; /**Adjust For Height Container Hodling Names **/
+}
+	
+.section4 h4{
+	font-size: 60px;	
+}	
+	
+.books{
+	width:70%;
+	height: 80%;
+ }	
+}
+/***********MEDIA****330px***************/
+@media screen and (max-width: 350px){                                            /*****350px******/
+/*******Section20***Start**************/
+.section20 h7{
+	font-size: 80px;
+}
+}
+/***********MEDIA****330px***************/
+@media screen and (max-width: 330px){                                           /*****330px******/
+.header{
+	
+	padding-right: 0;/*** Adjust The Look Of Chalk Board Rightside*********/
+}
+h1{
+	margin-right: -2%;
+	width: 50%; /****Adjust Size Of Box***/
+}
+	
+.owl{
+	margin-top: -145px;	
+	
+}
+	
+.section1 p{
+	font-size: 22px;
+	line-height: 34px;
+}	
+		
+/********Section3 Start********************/	
+.section3{
+	height: 200vh; /***Adjust Height Of Entire Section3 Or Div Basically****/
+}
+
+.section3 ul{
+	width: 100%;	
+ }	
+/********Section3 Finish********************/	
+	
+/***Section4***Start****/	
+.section4 h5{
+	font-size: 200%;	
+}
+
+/***Section4***Start****/		
+.section7 h5{
+	font-size: 60px;	
+}
+/***Section4***Finish****/	
+
+
+/*****Section11*****Start*************/
+.section11{
+	padding-top: 4%;
+}	
+	
+.section11 h5{/**Adjusting The Header Word "Trading"***********/
+	font-size: 5em;
+	padding-bottom: 6%;
+}
+	
+.charts_icon{
+	width: 90%;
+	margin-bottom: 2%;
+}	
+/***Section11***Finish****/	
+	
+/***Section12***Start****/	
+.section12 h5{	
+	margin-bottom: .3em;
+}
+/*******Section12*****Finish************/		
+/***Section13***Start****/	
+.section13 h5{
+		font-size: 65px;
+}
+	
+.books{
+/**	width: 80%;
+	height: 80%;****/
+ }
+/***Section13***Finish****/	
+	
+/***Section14***Start****/	
+.icon_globe{ /**Globe With All Social Media Icons**/
+	width: 120%;
+	height: 100%;
+	margin: 10px -22px 0 0;	
+}
+/***Section14***Finish****/	
+	
+/***Section16***********/	
+.fisher_dude{
+	display: flex;
+	width: 70%;
+	height: 70%;
+ }	
+}
+/**********************************************/
+/***********MEDIA****307px***************/
+@media screen and (max-width: 307px){                                         /*****307px******/
+.section{
+	width: 100vw;	
+}
+	
+.header h1{
+	display: none;
+}	
+.owl{
+	margin: -12.5em 1em 0 0; /*****Top, Right, Bottom, ,left***/
+	padding-right: 0;
+}	
+	
+.nav div{
+      background-color: purple;
+	  padding: 7px;
+}
+
+.nav div:nth-child(even){
+       background-color: skyblue;
+}
+
+.nav{
+	grid-template-columns: repeat(2, minmax(50px, 50px));
+	grid-gap: .5em;
+	padding: 10px;
+}	
+.owl{
+	width: 100%;
+}
+	
+.section2 h2{ /**Font For Crypto Text Above Atm Illustration**/
+	font-size: 4em;	
+	
+}	
+		
+/********Section3***Start*********/		
+ .section3 h3{
+	font-size: 35px;
+}
+	
+.section3 li {
+	font-size: 11px;
+}
+	
+.section3 ul{
+	width: 95%;
+	height: 170vh; /**Adjust For Height Container Hodling Names **/
+ }
+.section3 ul{
+	height: 170vh; /**Adjust Text Distance Hodling Names **/
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(30px, auto);
+	grid-column-gap: .4em;
+	grid-gap:1%;
+	padding: 25px 0 25px 0;
+ }	
+/********Section3***Finish*********/	
+	
+/********Section4***Start*********/	
+.section4 h4{	
+	font-size: 45px;	
+ }
+/********Section4***Finish*********/
+
+/********Section5***Start*********/	
+.section5 h5{
+	font-size: 2.5em;
+	padding-bottom: .5em;
+}
+/********Section5***Finish*********/	
+/********Section6***Start*********/	
+.section6 h5{
+	font-size: 2.8em;
+	padding-bottom: .5em;
+}
+/********Section6***Finish*********/
+
+/********Section7***Start*********/	
+.section7 h5{
+	font-size: 2.5em;
+	padding-bottom: .5em;
+}
+	
+.trezor_silver{
+	width: 100%;
+}	
+/********Section7***Finish*********/
+		
+ h5{
+	font-size: 2.5em;
+	padding-bottom: .5em;	
+}
+	
+/********Section9 Start*******************/
+.section9 h5{
+	font-size: 2.5em;
+}
+	
+.exchanges{
+	max-height: 96%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: repeat(6, minmax(80px, 80px));
+	grid-gap: 10%;
+	text-align: center;
+	padding: 1em 1em 4em 1em; /** Top, Right , Bottom , Left**/
+	justify-content: center;
+}
+	
+.exchanges2{
+	max-height: 96%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10%;
+	text-align: center;
+	padding: 1em 1em 15em 1em; /** Top, Right , Bottom , Left**/
+	justify-content: center;
+}	
+
+.business_dude{
+	width: 4em;	
+}	
+	
+/********Section9 Finish*******************/
+/***Section10***Start****/	
+.section10 h5{
+		font-size: 2.0em;
+}
+	
+/***Section10***Finish****/		
+.gavel{
+	width:60%;
+	margin:0 auto;
+}
+	
+.section11 h5{/**Adjusting The Header Word "Trading"***********/
+	font-size: 3em;
+}	
+	
+/***Section12***Start****/	
+.section12 h5{
+		font-size: 2.0em;	
+}	
+/***Section12***Finish****/
+	
+	
+/***Section13***Start****/	
+.section13 h5{
+		font-size: 2.0em;
+}	
+.books{
+	width: 60%;	
+}
+/***Section13***Finish****/
+
+	
+/***Section18***Start****/	
+.id_cartoon{
+	width: 100%;
+}
+/***Section18***Finish****/	
+	
+/*****Section19 Start**********/
+.section19 h6{
+	font-size: 70px;
+	padding-left: 0;
+	padding-right: 0;
+}	
+/*****Section19 Finish**********/	
+	
+.adlogo{ /***Trezor Ad At Bottom***/
+	width: 100%;
+ }
+	
+.baconwrap{
+		max-width: 150px;
+ }	
+	
+/*******Section20***Start**************/
+.section20 h7{
+	font-size: 70px;
+}
+	
+}
+
+/***Media**260px And Under***/
+@media screen and (max-width: 260px){                                              /*****260px******/
+	
+.owl{
+	margin-right: 0;
+	width: 90%;
+}	
+
+/********Section3 Start********************/	
+.section3{
+	height: 100%; /***Adjust Height Of Entire Section3 Or Div Basically****/
+}	
+	
+.section3 ul{
+	height: 242vh; /**Adjust For Height Container Hodling Names **/
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 1%;
+}	
+/********Section3 Finish********************/
+	
+.girl_online{
+	width: 100%;	
+}	
+/*****Section19 Start**********/
+.section19 h6{
+	font-size: 50px;
+}	
+/*****Section19 Finish**********/
+/*******Section20***Start**************/
+.section20 h7{
+	font-size: 50px;
+	
+}	
+}
+
+/***Media**225px And Under***/
+@media screen and (max-width: 225px){                                  /*****225px******/
+.section2 h2{
+		font-size: 40px;
+}
+.gavel{
+	display: none;
+}	
+
+.exchanges{
+	max-height: 96%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: repeat(6, minmax(80px, 80px));
+	grid-gap: 10%;
+	padding: 1em 1em 2em 1em;/** Top, Right , Bottom , Left**/
+}
+	
+.exchanges2{
+	max-height: 96%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10%;
+	padding: 1em 1em 15em 1em;/** Top, Right , Bottom , Left**/
+	
+}	
+	
+.exchanges2 p, .exchanges p{
+	font-size:14px; 	
+ }		
+}
+
