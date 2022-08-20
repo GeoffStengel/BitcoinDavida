@@ -57,19 +57,19 @@ section{
 }
 
 .box29{
-	background-image: url(/images/home_icon.jpg);
+	background-image: url(../images/home_icon.jpg);
 }
 
 .box30{
-	background-image: url(/images/chart_icon.jpg);
+	background-image: url(../images/chart_icon.jpg);
 }
 
 .box31{
-	background-image: url(/images/brain_icon.jpg);
+	background-image: url(../images/brain_icon.jpg);
 }
 
 .box32{
-	background-image: url(/images/blog_icon.png);
+	background-image: url(../images/blog_icon.png);
 }
 /******Nav**Area**Start**Finish****************/
 
@@ -127,12 +127,6 @@ section{
 	color: white;
 }
 
-.total_supply{ 	
-}
-
-.circulating_supply{
-	
-}
 /***Stats Section website total supply and such **Finish***/
 
 /*****Tipbot settings**start****/
@@ -163,7 +157,7 @@ section{
 }
 
 .tipbot{
-      background-image: url(/images/xrptibot_icon.jpg);	    
+      background-image: url(../images/xrptibot_icon.jpg);	    
 }
 .tipbot{
 	background-position: center;
@@ -184,7 +178,7 @@ section{
 }
 
 .footer{
-	background-image: url(/images/menagerie_icon.jpg);
+	background-image: url(../images/menagerie_icon.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
