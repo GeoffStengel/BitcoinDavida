@@ -96,19 +96,19 @@ a{
 
 /******Nav Images**Start*****/
 .box29{
-	background-image: url(/images/home_icon.jpg);
+	background-image: url(../images/home_icon.jpg);
 }
 
 .box30{
-	background-image: url(/images/chart_icon.jpg);
+	background-image: url(../images/chart_icon.jpg);
 }
 
 .box31{
-	background-image: url(/images/brain_icon.jpg);
+	background-image: url(../images/brain_icon.jpg);
 }
 
 .box32{
-	background-image: url(/images/blog_icon.png);		
+	background-image: url(../images/blog_icon.png);		
 }
 /****Nav Images Finish*****/
 
@@ -141,7 +141,7 @@ a{
 }
 
 .tipbot{
-      background-image: url(/images/xrptibot_icon.jpg);	    
+      background-image: url(images/xrptibot_icon.jpg);	    
 }
 
 .tipbot {

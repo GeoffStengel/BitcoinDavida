@@ -118,19 +118,19 @@ section{
 	background-color: #c9b7eb;
 }
 .box29{
-	background-image: url(/images/home_icon.jpg);
+	background-image: url(../images/home_icon.jpg);
 }
 
 .box30{
-	background-image: url(/images/chart_icon.jpg);
+	background-image: url(../images/chart_icon.jpg);
 }
 
 .box31{
-	background-image: url(/images/brain_icon.jpg);
+	background-image: url(../images/brain_icon.jpg);
 }
 
 .box32{
-	background-image: url(/images/blog_icon.png);		
+	background-image: url(../images/blog_icon.png);		
 }
 	
 img{

@@ -33,13 +33,13 @@ p{
 /***********Section Body Grid Area***************************************/
 
 .nav div{
-      background-color: purple;
-	  padding: 6px;
+    background-color: purple;
+	padding: 6px;
 	border-radius: 10px;
 }
 
 .nav div:nth-child(even){
-       background-color: skyblue;
+    background-color: skyblue;
 }
 
 .nav{
@@ -302,7 +302,7 @@ h4{
 	padding: 3em 1em 3em 1em; /**Adjust Padding Around Entire Div On Inside*****/
 	justify-content: center;
 	box-shadow: 0 0 20px black;
-	list-style-image: url(/images/check_box.png);
+	list-style-image: url(../images/check_box.png);
 	margin: 0 auto;
 	border-radius: 20px;
 }
@@ -339,9 +339,9 @@ h4{
 }	
  
 .images div{
-      background-color: #9cd6f5;
-	  margin: 0 auto;
-	  width: 100%;	
+    background-color: #9cd6f5;
+	margin: 0 auto;
+	width: 100%;	
 }
 
 .images p{
@@ -357,13 +357,13 @@ h4{
 }
 
 .newspaper_dude{ /***Image Guy Reading A Newspaper ****/
-	background-image: url(/images/reading.jpg);
+	background-image: url(../images/reading.jpg);
  }
 .youtube_guy{ /***Image Youtube Logo****/
-    background-image: url(/images/youtube.png);
+    background-image: url(../images/youtube.png);
  }		  
 .sherlock{  /***Image Of Sherlock Guy And Magnify Glass****/
-    background-image: url(/images/detective.png);
+    background-image: url(../images/detective.png);
 }
 
 .newspaper_dude, .youtube_guy, .sherlock{
@@ -409,7 +409,7 @@ h5{
 .section4 ul{
     display: inline-grid;
     margin-left: 8%; 
-	list-style-image: url(/images/check_box.png);
+	list-style-image: url(../images/check_box.png);
 }
 .images{
 	height: 25em;/**Height Of Image Div Hodls 3 Images And Text**/
@@ -577,40 +577,40 @@ h5{
 /**Second List Of Exchanges Finish**/
 /*****Images For The Icons*************************/
 .binance{   /****Binance Image For List Of Exchanges**/
-	background-image: url(/images/binance_coin.png);
+	background-image: url(../images/binance_coin.png);
  }
 .bitfinex{
-	background-image: url(/images/bitfinex_icon.png);
+	background-image: url(../images/bitfinex_icon.png);
 }
 .poloniex{
-	background-image: url(/images/poloniex_icon.png);
+	background-image: url(../images/poloniex_icon.png);
 }
 .bittrex{
-	background-image: url(/images/bittrex_icon2.png);
+	background-image: url(../images/bittrex_icon2.png);
 }
 .bitstamp{
-	background-image: url(/images/bitstamp_icon.png);
+	background-image: url(../images/bitstamp_icon.png);
 }
 .coinbase{
-	background-image: url(/images/coinbase_icon.png);
+	background-image: url(../images/coinbase_icon.png);
 }
 .mercatox{
-	background-image: url(/images/mercatox_icon.png);
+	background-image: url(../images/mercatox_icon.png);
 }
 .coinone{
-	background-image: url(/images/coinone_icon.png);
+	background-image: url(../images/coinone_icon.png);
 }
 .kraken{
-	background-image: url(/images/kraken_icon.png);
+	background-image: url(../images/kraken_icon.png);
 }
 .bithumb{
-	background-image: url(/images/bithumb_icon.png);
+	background-image: url(../images/bithumb_icon.png);
 }
 .korbit{
-	background-image: url(/images/korbit_icon.png);
+	background-image: url(../images/korbit_icon.png);
 }
 .coinbase_pro{
-	background-image: url(/images/coinbase_pro_icon.png);
+	background-image: url(../images/coinbase_pro_icon.png);
 }
 
 .business_dude{
@@ -835,19 +835,19 @@ a{
 }
 /************Nav Start*************/
 .box29{
-	background-image: url(/images/home_icon.jpg);
+	background-image: url(../images/home_icon.jpg);
 }
 
 .box30{
-	background-image: url(/images/chart_icon.jpg);
+	background-image: url(../images/chart_icon.jpg);
 }
 
 .box31{
-	background-image: url(/images/brain_icon.jpg);
+	background-image: url(../images/brain_icon.jpg);
 }
 
 .box32{
-	background-image: url(/images/blog_icon.png);	
+	background-image: url(../images/blog_icon.png);	
 }
 /************ Nav Images Finish *************/
 
@@ -856,7 +856,7 @@ a{
 }
 
 .adlogo{   /**Trezor ** Ad ** Logo ** At ** Bottom***/
-	background-image: url(/images/trezor_ad.jpg);
+	background-image: url(../images/trezor_ad.jpg);
 	width: 250px;
 	height: 200px;
 	margin-bottom: 10px;
@@ -893,7 +893,7 @@ a{
 }
  
 .tipbot{
-      background-image: url(/images/xrptibot_icon.jpg);	    
+      background-image: url(../images/xrptibot_icon.jpg);	    
 }
 
 .tipbot {
@@ -909,7 +909,7 @@ a{
 /***********Tipbot settings***finish*********/
 
 .footer{
-	background-image: url(/images/menagerie_icon.jpg);
+	background-image: url(../images/menagerie_icon.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -930,10 +930,7 @@ h2{  /***Yellow Text Next To Owl At Top***/
 }
 
 @media screen and (max-width: 600px){   /****Media 600px And Under********/                  /*****600px******/
-.header{
-	padding-right: ;/***Right Of Chalk Board And Wall*****/
-	}
-	
+
 h1{ /******Top Box Has Info On Crypto Text In It**********/
 	width: 58%;
 	font-size: 4.7em;
@@ -1211,11 +1208,7 @@ h2{  /***Yellow Text Next To Owl At Top***/
 /*******Section10***Start**************/
 
 /********Section13 Start*******************/
-.books{
-	/**width: 18em;
-	height: 20em;***/
-	
-}
+
 /********Section13 Finish*******************/
 	
 /********Section15 Start*******************/
@@ -1633,10 +1626,6 @@ h1{
 		font-size: 65px;
 }
 	
-.books{
-/**	width: 80%;
-	height: 80%;****/
- }
 /***Section13***Finish****/	
 	
 /***Section14***Start****/	
