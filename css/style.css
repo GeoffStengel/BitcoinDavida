@@ -77,11 +77,11 @@ p{
 }
 
 .box25{
-	background-image: url(/images/left.jpg);
+	background-image: url(../images/left.jpg);
 }
 
 .box26{
-	background-image: url(/images/right.jpg);
+	background-image: url(../images/right.jpg);
 }
 
 .box29{
