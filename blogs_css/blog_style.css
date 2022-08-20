@@ -99,19 +99,19 @@ p{
 }
 
 .box29{
-	background-image: url(/images/home_icon.jpg);
+	background-image: url(../images/home_icon.jpg);
 }
 
 .box30{
-	background-image: url(/images/chart_icon.jpg);
+	background-image: url(../images/chart_icon.jpg);
 }
 
 .box31{
-	background-image: url(/images/brain_icon.jpg);
+	background-image: url(../images/brain_icon.jpg);
 }
 
 .box32{
-	background-image: url(/images/blog_icon.png);		
+	background-image: url(../images/blog_icon.png);		
 }
 
 .blog2{
@@ -129,7 +129,7 @@ p{
 	
 .img1{   /***this is the top left image**/
 	float: left;  /**at top of page***/
-	shape-outside: ;
+	/**shape-outside: ;***/
 	shape-image-threshold: 0;
 	margin-right: 2%;
 	margin-top: 2%;
@@ -137,7 +137,7 @@ p{
 	
 .img2{ /****3rd image down on the left****/
 	float: left;
-	shape-outside: ;
+	/***shape-outside: ;***/
 	shape-image-threshold: 0;
 	margin-right: 2%;
 	margin-top: 2%;
@@ -146,7 +146,7 @@ p{
 
 .img3{ /****4rd image down on the right****/
 	float: right;
-	shape-outside: ;
+	/**shape-outside: ;**/
 	shape-image-threshold: 0;
 	margin-left: 2%;
 	margin-top: 2%;
@@ -154,7 +154,7 @@ p{
 }	
 .img4{  /****5rd image down on the left****/
 	float: left;
-	shape-outside: ;
+	/**shape-outside: ;**/
 	shape-image-threshold: 0;
 	margin-right: 2%;
 	margin-top: 2%;
@@ -167,7 +167,7 @@ p{
 }
 
 #adlogo{   /**Trezor ** Ad ** Logo ** At ** Bottom***/
-	background-image: url(/images/trezor_ad.jpg);
+	background-image: url(../images/trezor_ad.jpg);
 	width: 250px;
 	height: 200px;
 	margin: 0 auto;
@@ -207,7 +207,7 @@ p{
 }
  
 .tipbot{
-      background-image: url(/images/xrptibot_icon.jpg);	    
+      background-image: url(../images/xrptibot_icon.jpg);	    
 }
 
 .tipbot {
@@ -224,7 +224,7 @@ p{
 /***********Tipbot settings***finish*********/
 
 .footer{
-	background-image: url(/images/menagerie_icon.jpg);
+	background-image: url(../images/menagerie_icon.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
