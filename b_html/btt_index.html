@@ -37,9 +37,8 @@
 	btc, btc to usd, bitcoin price, ethereum price, btc price, dogecoin, bitcoin value, gbtc,
 	bitcoin price live, gbtc stock, bitcoin stock, ledger nano s">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="monetization" content="$reddit.xrptipbot.com/EugeneGlassMenagerie">
 	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/info.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/body.css"/>
 	<!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -51,70 +50,148 @@
 	<link rel="shortcut icon" type="image/png" href="../images/btc_logo.jpg">
 	<!-----Thumbnail Image In Index----Finish--------->
 </head>	
-   <body>
-      <section>		
- <!-----------------Navigation Area---------------------------------------->		
-          <div id="content">
-	          <a href="../index.html"><div class="box box29"><p>Home</p></div></a>
+    <body>
+    <!----  <section>	---->	
+	<div class="container_grid">	
+	    <!-----------------Sidebar Area-----Start----------------------------------->		
+		<div id="nav_bar">
+	        <a href="../index.html"><div class="box box29"><p>Home</p></div></a>
+		    <a href="../charts.html"><div class="box box30"><p>Charts</p></div></a>		
+		    <a href="../blogs/info_on_crypto.html"><div class="box box31"><p>Learn</p></div></a>		
+		    <a href="../blog.html"><div class="box box32"><p>Blog</p></div></a>
+		</div>
+		<!-----------------Sidebar Area-----Finish----------------------------------->		
+ 		
 		
-		      <a href="../charts.html"><div class="box box30"><p>Charts</p></div></a>
-		
-		      <a href="../blogs/info_on_crypto.html"><div class="box box31"><p>Learn</p></div></a>
-		
-		      <a href="../blog.html"><div class="box box32"><p>Blog</p></div></a>	
-	     </div>
-		   
- <!-- TradingView Widget BEGIN -->
-	   
-         <div class="box box5">						
-         <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-         <script type="text/javascript">
-         new TradingView.widget(
-         {
-         "autosize": true,
-         "symbol": "BITFINEX:BTTUSD",
-         "interval": "1",
-         "timezone": "Etc/UTC",
-         "theme": "Dark",
-         "style": "3",
-         "locale": "en",
-         "toolbar_bg": "#f1f3f6",
-         "enable_publishing": false,
-         "withdateranges": true,
-         "allow_symbol_change": true,
-         "show_popup_button": true,
-         "popup_width": "1000",
-         "popup_height": "650",
-         "container_id": "tradingview_d0c84"
+    <!-- TradingView Chart Widget BEGIN box box5-->
+        <div class="main_chart">						
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        new TradingView.widget(
+        {
+        	"autosize": true,
+        	"symbol": "BITFINEX:BTTUSD",
+        	"interval": "1",
+        	"timezone": "Etc/UTC",
+        	"theme": "Dark",
+        	"style": "3",
+        	"locale": "en",
+        	"toolbar_bg": "#f1f3f6",
+        	"enable_publishing": false,
+        	"withdateranges": true,
+        	"allow_symbol_change": true,
+        	"show_popup_button": true,
+        	"popup_width": "1000",
+        	"popup_height": "650",
+        	"container_id": "tradingview_d0c84"
         }
         );
-   </script>
-	     
-			 </div>	
+    	</script>
+		</div>	
 	
-<!---- Whitepapers ---->	
-	<div id="bacon bacon3">
-	<iframe class="whitepaper" src=
- "https://docs.google.com/gview?url=https://bittorrent.com/btt/btt-docs/BitTorrent_Token_Whitepaper.pdf&embedded=true"
-frameborder="3"></iframe>   
-	</div>			  
-		  
-		<!--------------------------------------------------------------------->				
-<!---------------------------------------------------------------------------->				
-<!---Div - For - Tipbot -- Menagerie -- Logo -- Start --new------------------->		
-<div class="baconwrap">	
-	
-<!----Tipbot app---start-------->
-		
- <a href="https://www.xrptipbot.com/u:TheMenagerie/n:twitter" target="_blank"><div class="tipbot"><p>XRPtipbot</p></div></a>	
+	<!---- Whitepapers -was bacon9--->
+	<div id="whitepapers"> 
+		<iframe class="whitepaper" src="../pdf/bitTorrent_wp.pdf"></iframe>
+	</div> 
 
- <a href="https://eugeneglassmenagerie.com" target="_blank"><div class="footer"><p>Greenhorn</p></div></a>	
-	
-</div>		
+<!-- TradingView Widget BEGIN -->
+	<div class="market_overview">
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+		{
+		"colorTheme": "dark",
+		"dateRange": "12M",
+		"showChart": true,
+		"locale": "en",
+		"width": "100%",
+		"height": "100%",
+		"largeChartUrl": "",
+		"isTransparent": false,
+		"showSymbolLogo": false,
+		"showFloatingTooltip": false,
+		"plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+		"plotLineColorFalling": "rgba(41, 98, 255, 1)",
+		"gridLineColor": "rgba(240, 243, 250, 0)",
+		"scaleFontColor": "rgba(120, 123, 134, 1)",
+		"belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+		"belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+		"belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+		"belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+		"symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+		"tabs": [
+	  	{
+			"title": "Indices",
+			"symbols": [
+		  	{
+				"s": "BINANCE:BTTCUSDT"
+		  	},
+		  	{
+				"s": "BITFINEX:BTTUSD"
+		  	},
+		  	{
+				"s": "BITFINEX:BTTBTC"
+		  	},
+		  	{
+				"s": "POLONIEX:BTTTRX"
+		  	},
+		  	{
+				"s": "UNISWAP3ETH:BTTWETH"
+		  	},
+		  	{
+				"s": "KRAKEN:BTTEUR"
+		  	}
+			],
+			"originalTitle": "Indices"
+	  	},
+	  	{
+			"title": "Futures",
+			"symbols": [
+		  	{
+				"s": "CME_MINI:ES1!",
+				"d": "S&P 500"
+		  	},
+		  	{
+				"s": "CME:6E1!",
+				"d": "Euro"
+		  	},
+		  	{
+				"s": "COMEX:GC1!",
+				"d": "Gold"
+		  	},
+		  	{
+				"s": "NYMEX:CL1!",
+				"d": "Crude Oil"
+		  	},
+		  	{
+				"s": "NYMEX:NG1!",
+				"d": "Natural Gas"
+		    },
+		  	{
+				"s": "CBOT:ZC1!",
+				"d": "Corn"
+		  	}
+			],
+			"originalTitle": "Futures"
+	  
+	  			}
+			]
+  		}
+		</script>
+  	</div>
+  	<!-- TradingView Widget END -->
+	</div>
+
+<!--------------------------------------------------------------------->				
+<!---------------------------------------------------------------------------->				
+<!---Div - For - Tipbot -- Menagerie -- Logo -- Start --new------------------->	
+<!----Tipbot app---start-------->	
+	<div class="baconwrap">	
+		<a href="https://www.xrptipbot.com/u:TheMenagerie/n:twitter" target="_blank"><div class="tipbot"><p>XRPtipbot</p></div></a>	
+		<a href="https://eugeneglassmenagerie.com" target="_blank"><div class="footer"><p>Greenhorn</p></div></a>		
+	</div>		
 <!---Div - For - Tipbot -- Menagerie -- Logo -- Finish ----new----------------->
-<!----------------------------------------------------------------------------->
-   </section> 		   		       		   
+
+<!----   </section> 	----->	   		       		   
 <!----------Analytics-----updated tagmanager----------------------->	   
-<script src="../js/footer.js"></script> <!---Added This For Google Tag Manager--->
+	<script src="../js/footer.js"></script> <!---Added This For Google Tag Manager--->
 </body>	
 </html>

@@ -24,7 +24,7 @@ section{
 }
 
 /***Nav area****/
-#content{
+#nav{
 	display: grid;
 	grid-template-columns:repeat(4, minmax(55px, 60px));
 	grid-template-rows: repeat(1,  minmax(30px, auto));
@@ -37,13 +37,14 @@ section{
 	grid-gap: 10px;
 }
 
-#content div:nth-child(even){
+#nav div:nth-child(even){
 	background: #777;
 }
 	
-#content div{
+#nav div{
 	padding: 15px;
 }
+
 /**********Navigation Buttons/icons*********************************/
 .box29 p, .box30 p, .box31 p,
 .box32 p {
@@ -84,7 +85,7 @@ section{
     justify-items: stretch;
     align-items: stretch;
 	overflow: hidden;
-	padding: 8px;
+	padding: 10px;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
 	border-radius: 4px;
 }
@@ -115,15 +116,10 @@ section{
 }
 	
 /*****White papers*************/
-
 .bacon9{
-      /**display: flex;	**/
-     /** float: left;	**/
       padding-top: 0;
       padding-bottom:10px;
       padding-right: 0;
-      /**padding-left: 10px;**/
-      /**width: 49.0%;**/
 	  width: 100%;
       height: 100%;
       margin: 0 auto; 
@@ -131,40 +127,40 @@ section{
 	  align-items: center;
 }
 
-/******unhide if new grid doesn't work*****************/
-
-
 /**Footer****/
 .baconwrap{
 	display: grid;
-	grid-template-columns:repeat(4, minmax(55px, 60px));
+	grid-template-columns:repeat(4, minmax(55px, 75px));
 	grid-template-rows: repeat(1,  minmax(30px, auto));
-/**	max-width: 1920px;**/
 	text-align: center;	
-	font-size: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-top: 10px;
 	justify-content: center;
-	/**background-color: chocolate;**/
 	grid-gap: 20px;
-	max-width:1920px;
+	max-width: 1920px;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
-	
 }
 
+/***Footer Text***/
+.baconwrap p {
+	line-height: 1.2em;
+	font-size: 14px;
+	color: #ddd;
+	margin-top: .5em;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+/**
 .baconwrap div:nth-child(even){
 	background: #777;
-	
-}
+}**/
 	
 .baconwrap div{
 	padding: 35px;
 	border-radius: 10px;
 }
-
-
-
 
 .ripplewebsite, .footer,
 .tipbot, .xrpledger_icon {
@@ -275,7 +271,7 @@ section{
 /**************************************/
 /*********300 and under****************/		
 @media screen and (max-width: 300px){
-#content{
+#nav{
 	display: grid;
     grid-template-columns:repeat(2, minmax(55px, 60px));		
 }

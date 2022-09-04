@@ -1,63 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>XRP Charts</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="charts and info on xrp">
-    <meta name="keywords" content="bitcoin, crypto, crypto charts, xrp, ethereum, litecoin">
+  <title>XRP Charts</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="charts and info on xrp">
+  <meta name="keywords" content="bitcoin, crypto, crypto charts, xrp, ethereum, litecoin,
+  whitepapers, block explorer">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="monetization" content="$reddit.xrptipbot.com/EugeneGlassMenagerie">
 	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/xrp.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/xrp.css"/>
 	<!-----Thumbnail Image In Index---Start---------->
 	<link rel="shortcut icon" type="image/png" href="../images/btc_logo.jpg">
 	<!-----Thumbnail Image In Index----Finish--------->
 </head>
    <body>	
-     <section>		
- <!-----------------Navigation Area---------------------------------------->		
-          <div id="content">
-	          <a href="../index.html"><div class="box box29"><p>Home</p></div></a>
-		
-		      <a href="../charts.html"><div class="box box30"><p>Charts</p></div></a>
-		
-		      <a href="../blogs/info_on_crypto.html"><div class="box box31"><p>Learn</p></div></a>
-		
-		      <a href="../blog.html"><div class="box box32"><p>Blog</p></div></a>	
-	      </div>
-		 
-        <div class="grid_container">
-
- <!-- TradingView Widget BEGIN -->
-         <div class="bacon bacon5">						
-         <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-         <script type="text/javascript">
-         new TradingView.widget(
-         {
-         "autosize": true,
-         "symbol": "BINANCE:XRPUSD",
-         "interval": "1",
-         "timezone": "Etc/UTC",
-         "theme": "Dark",
-         "style": "3",
-         "locale": "en",
-         "toolbar_bg": "#f1f3f6",
-         "enable_publishing": false,
-         "withdateranges": true,
-         "allow_symbol_change": true,
-         "show_popup_button": true,
-         "popup_width": "1000",
-         "popup_height": "650",
-         "container_id": "tradingview_d0c84"
+     <section>	
+  <!-----------------Navigation Area------Start--------------------->		
+      <div id="nav">
+	      <a href="../index.html"><div class="box box29"><p>Home</p></div></a>
+		    <a href="../charts.html"><div class="box box30"><p>Charts</p></div></a>
+		    <a href="../blogs/info_on_crypto.html"><div class="box box31"><p>Learn</p></div></a>
+		    <a href="../blog.html"><div class="box box32"><p>Blog</p></div></a>	
+	    </div>
+  <!-----------------Navigation Area--Finish------------------------>			 
+      
+    <div class="grid_container">
+  <!-- TradingView Chart Widget BEGIN -->
+      <div class="bacon bacon5">						
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        new TradingView.widget(
+        {
+        "autosize": true,
+        "symbol": "BINANCE:XRPUSD",
+        "interval": "1",
+        "timezone": "Etc/UTC",
+        "theme": "Dark",
+        "style": "3",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "withdateranges": true,
+        "allow_symbol_change": true,
+        "show_popup_button": true,
+        "popup_width": "1000",
+        "popup_height": "650",
+        "container_id": "tradingview_d0c84"
         }
         );
-   </script> 
-</div>	
-		<!-- TradingView Widget END -->
+        </script> 
+      </div> 	
+		<!---- TradingView Chart Widget END ---->
 	
-     <div class="bacon bacon6"> 
-		
-		<!-- TradingView Widget BEGIN -->
+    <!-- TradingView Market Overview Widget BEGIN -->
+  <div class="market_overview"> 
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
     "colorTheme": "dark",
@@ -221,21 +217,19 @@
 		 
 		<!---- White Paper ---->	
 	<!---- <div id="bacon bacon3"> ---->	
-	<iframe class="bacon9" src=
- "https://docs.google.com/gview?url=https://ripple.com/files/ripple_consensus_whitepaper.pdf&embedded=true"
+	<iframe class="bacon9" 
+  src="https://docs.google.com/gview?url=https://ripple.com/files/ripple_consensus_whitepaper.pdf&embedded=true"
 frameborder="3"></iframe>   
 	<!---- </div>---->
-		
-
-  
+	
 	<div class="bacon7">
-	<iframe class="bacon8" frameborder="0" src="https://livenet.xrpl.org"
-style=""></iframe>   
+	  <iframe class="bacon8" frameborder="0" src="https://livenet.xrpl.org" style=""></iframe>   
 	</div>	
 	
-</div>  
+</div>
+
+<!--Bacon Wrap--Footer-----Start---------->
 <div class="baconwrap">
-	
 <!--------Ripple Website------------>	
   <a href="https://ripple.com/xrp/" target="_blank"><div class="ripplewebsite"></div><p>Ripple</p></a>
 
@@ -247,6 +241,7 @@ style=""></iframe>
 	
 <!----Footer---------------------------->
 <a href="https://eugeneglassmenagerie.com" target="_blank"><div class="footer"></div><p>Project By:<br />Greenhorn</p></a>	
+<!----Footer-----Finish----------------------->
 	
 	
 </div>
