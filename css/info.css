@@ -3,16 +3,36 @@
 	margin: 0;
 }
 
-	body{
+body{
 	margin: 0 auto;
 	max-width: 2600px;
 	font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    background: rgb(23, 20, 31);
     color: #fff;	
 	font-size: 1.1em;
 	line-height: 1.5;
 	text-align: center;	
 } 
+
+/**Main Grid***/
+.grid_container {
+	display: grid;
+	grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+	background: #ddd;
+	max-width: 1600px;
+	height: 100%;
+    margin: 0 auto;
+    grid-gap: 10px;
+    justify-items: stretch;
+    align-items: stretch;
+	overflow: hidden;
+	padding: 10px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+	border-radius: 4px;
+}
+
+
 /*********Body And Grid Area******************************/
 section{
 	margin: 0 auto;	
@@ -29,7 +49,8 @@ section{
 	font-size: 20px;
 	padding: 15px;
 	justify-content: center;
-	background-color: chocolate; 
+	/**background-color: chocolate; **/
+	background-color: rgb(23, 20, 31);
 	grid-gap: 10px;
 }
 
