@@ -49,8 +49,8 @@ section{
 	font-size: 20px;
 	padding: 15px;
 	justify-content: center;
-	/**background-color: chocolate; **/
-	background-color: rgb(23, 20, 31);
+	background-color: chocolate;
+	/**background-color: rgb(23, 20, 31);**/
 	grid-gap: 10px;
 }
 
