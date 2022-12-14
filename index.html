@@ -101,23 +101,29 @@ p {
 	background-image: url(images/downloads_icon.png);
 }
 @media screen and (max-width: 600px){
-		section{
-		height: 150vh;	
+section{
+	height: 150vh;	
  }	
 }		
 @media screen and (max-width: 330px){
-		section{
-		height: 110vh;	
+section{
+	height: 110vh;	
  }	
 }		
 @media screen and (max-width: 245px){
-		section{
-			height: 205vh;
+section{
+	height: 205vh;
  }	
 }	
 @media screen and (max-width: 123px){
-		section{
-			height: 318vh;
+#content{
+	height: 100%;
+	grid-template-columns: repeat(1, minmax(50px, 50px));
+	grid-template-rows: repeat(20, 60px);
+}
+section{
+	height: 1200px;
+	background-color: purple;
  }	
 }		
 </style>		  

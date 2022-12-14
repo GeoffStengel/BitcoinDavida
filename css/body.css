@@ -89,6 +89,11 @@ section{
     padding: 0;
 }
 
+.box:active{
+	height: 27px;
+	width: 27px;
+}
+
 .box29 p, .box30 p, .box31 p,
 .box32 p {
 	opacity: 0;

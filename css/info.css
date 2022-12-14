@@ -64,6 +64,15 @@ section{
 	padding: 14px;	
 }
 
+.box{
+	box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);
+}
+
+.box:active{
+	height: 29px;
+	width: 29px;
+}
+
 .box29 p, .box30 p, .box31 p,
 .box32 p {
 	opacity: 0;

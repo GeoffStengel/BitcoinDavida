@@ -6,13 +6,16 @@
  
 body, html{
 	height: 100%; /****Just Added Height/width To Test********/
-/**	width: 100vw;**/
+	width: 100vw;
 	
 	font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    /**background: #333; **/
+	/**
 	background:
 		linear-gradient(45deg, rgba(108, 103, 154, 0.5) 0%, rgba(108, 103, 154, 0.5) 25%,rgba(110, 128, 180, 0.5) 25%, rgba(110, 128, 180, 0.5) 50%,rgba(111, 154, 205, 0.5) 50%, rgba(111, 154, 205, 0.5) 75%,rgba(113, 179, 231, 0.5) 75%, rgba(113, 179, 231, 0.5) 100%),linear-gradient(135deg, rgb(7, 175, 249) 0%, rgb(7, 175, 249) 25%,rgb(11, 140, 230) 25%, rgb(11, 140, 230) 50%,rgb(16, 105, 211) 50%, rgb(16, 105, 211) 75%,rgb(20, 70, 192) 75%, rgb(20, 70, 192) 100%);
-    color: #fff;	
+    **/
+	background: rgb(23, 20, 31);	
+	color: #fff;	
 	text-align: center;	
 }
 
@@ -48,19 +51,12 @@ section{
 
 #content div{
       background-color: purple;
-	  padding: 25px;
+	/**  padding: 25px; **/
+	padding: 5px;
 }
 
 #content div:nth-child(even){
        background-color: skyblue;
-}
-
-.box{
-	border-radius: 12px;
-	text-align: center;	
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 12px;
 }
 
 p{
@@ -70,10 +66,23 @@ p{
 }
 
 .box{
+	height: 50px;
+	width: 50px;
 	border-radius: 10px;
+	text-align: center;	
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);
+}
+
+.box:hover{
+	background-color: grey;
+}
+
+.box:active{
+	height: 45px;
+	width: 45px;
 }
 
 .box25{
@@ -148,9 +157,7 @@ p{
 	margin-bottom: 5px;
 }
 	
-.box{
-	height: 58px;
- }
+
 }
 /**************************************************/
 /*******SMART WATCHES ***************************/
@@ -177,9 +184,7 @@ section{
 	
 
 
-.box{
-	height: 55px;	
- }	
+	
 }
 
 /**************************************************/
@@ -191,20 +196,12 @@ section{
 	grid-auto-rows: repeat(10, minmax(50px, 50px));
     grid-gap: 1%;
 	grid-column-gap: 5%;
-	padding:  15px;
+	padding:  5px;
 	padding-top: 10px;
 }
-	
-#content div{
-	padding: 15px;
-}
 
-#content div:nth-child(even){
-	padding: 15px;
-}
-	
 section{
-	height: 141vh;
+	height: 100vh;
 }
 	
 p{
@@ -213,7 +210,8 @@ p{
 	
 .box{
 	background-image: 100%;
-	height: 20px;
+	height: 40px;
+	width: 40px;
  }	
 }
 /**************************************************/
@@ -222,57 +220,53 @@ p{
 /***********Section Body Grid Area***************************************/
 #content{
 	grid-template-columns: repeat(2, minmax(65px, 65px));
-	grid-auto-rows: repeat(4, 55px);
-    grid-gap: 1.5em;
-	padding: 10px;
-}
-	
-#content div{
-	padding: 15px;
+	grid-template-rows: repeat(10, 60px);
+    grid-gap: .5em;
+	grid-row-gap: 10px;
 }
 
-#content div:nth-child(even){
-	padding: 15px;
-}
-	
 section{
 	height: 275vh;
 }
 
 .box{
-	height: 3em;
- }
+	margin: 0 auto;
+}
+
 }
 /**************************************************/
 /*******Tiny Devices ***************************/
-@media screen and (max-width: 160px) {
+@media screen and (max-width: 142px) {
 #content{
 	grid-template-columns: repeat(2, minmax(50px, 50px));
-	grid-auto-rows: repeat(4, 50px);
-	grid-column-gap: 1%;
-	grid-row-gap: 3%;
-    grid-gap: 1.3em;
-}
-#content div{
-	padding: 20px;
+	grid-auto-rows: repeat(10, 25px);
+
 }
 
 section{
-	height: 235vh;	
+	height: 200vh;	
 }
 
 .box{
-	height: 1em;
+	height: 30px;
+	width: 30px;
  }
 }
 /**************************************************/
 @media screen and (max-width: 123px) {
 /**************************************************/
-	
-#content{
-	grid-template-columns: repeat(1, minmax(50px, 50px));
+html{
+	height: 100%;
 }
+
+
+#content{
+	height: 100%;
+	grid-template-columns: repeat(1, minmax(50px, 50px));
+	grid-auto-rows: repeat(20, 25px);
+}
+
 section{
-	height: 460vh;	
+	height: 860vh;	
  }		
 }
