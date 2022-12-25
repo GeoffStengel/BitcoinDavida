@@ -16,7 +16,7 @@
 
 body{
 	font-family: 18thCentury, Arial, Helvetica, sans-serif;
-    background: white;
+    background: rgb(23, 20, 31);
     margin: 0 auto;	
 	text-align: center;
 }
@@ -33,40 +33,58 @@ p{
 	font-family: 18thCentury;
 	margin-top: 10px;
 }
+
+/****Background Section Behind Content and Nav******************/
 section{
-	background-color: white; /***background**/
+	background-color: #ddd; /***background**/
 	background-position: center;
 	height: 100%;
 	max-width: 920px;
 	background-size: cover;
 	background-repeat: no-repeat;
     margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding: 10px 0 10px 0;
+	border-radius: 10px;
 }
 
 /********Nav**Area**Start*******************************/
 .nav{
 	display: grid;
-	max-height: 100%;
+	max-height: 80px;
 	max-width: 900px;
 	grid-template-columns: repeat(4, minmax(70px, 70px));
 	grid-auto-rows: repeat(10, minmax(80px, .4fr));
 	margin: 0 auto;
+	margin: 0 10px 10px 10px;
 	grid-gap: 15px;
 	text-align: center;
 	padding: 10px;
+	padding-top: 10px;
 	justify-content: center;
 	align-content: center;
 	border-radius: 10px;
-/** box-shadow: 0 0 10px black; ***/
+	background-color: rgb(26, 26, 26);
+	background: rgb(23, 20, 31);
+    box-shadow: 0 0 10px black;
+	 
 }
 	
 .nav div{
       background-color: purple;
-	  padding: 35px;
+	  padding: 5px;
 }
 
 .nav div:nth-child(even){
        background-color: skyblue;
+}
+
+.nav p{
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+	color: #ddd;
 }
 /********Nav**Area**Finish*******************************/
 
@@ -75,6 +93,14 @@ section{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;	
+	padding: 5px;
+}
+
+.box29, .box30, .box31, .box32 {
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);
 }
 
 .container{
@@ -91,31 +117,39 @@ section{
 	padding: 10px;
 	justify-content: center;
 	border-radius: 10px;
+	background: rgb(23, 20, 31);
+	box-shadow: 0 0 10px black;
 }
 	
 .container div{
-	  padding: 30px;
+	  padding: 10px;
 	  box-shadow: 0 0 20px black;
+	  background-color: #ddd;
 }
 
 .container div:nth-child(5n + 1){
 	 background-color: #4ea2ea;
+	 background-color: #ddd;
 }
 
 .container div:nth-child(5n + 2){
 	 background-color: #69bf5e;
+	 background-color: #ddd;
 }
 
 .container div:nth-child(5n +3){
     background-color: #e1b77b;
+	background-color: #ddd;
 }
 
 .container div:nth-child(5n + 4){
 	 background-color: #ba4956;
+	 background-color: #ddd;
 }
 
 .container div:nth-child(5n + 5){
 	background-color: #c9b7eb;
+	background-color: #ddd;
 }
 .box29{
 	background-image: url(../images/home_icon.jpg);
@@ -168,9 +202,7 @@ img{
 .nav{
 		grid-template-columns: repeat(4, minmax(50px, 50px));
 }
-.nav div{
-	  padding: 25px;
- }
+
 }
 
 /***************************************/
@@ -178,16 +210,24 @@ img{
 .buy_now{
 	width: 100%;
  }
+
+ .box29, .box30, .box31, .box32 {
+	height: 30px;
+	width: 30px;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);
+} 
 }	
 
 	/***************************************/
 @media screen and (max-width: 255px){
 .nav{
-		grid-template-columns: repeat(2, minmax(50px, 50px));
-	}
-.nav div{
-	  padding: 25px;
- }
+	grid-template-columns: repeat(4, minmax(50px, 50px));
+	grid-gap: 5px;
+}
+.nav p{
+	font-size: 14px;
+}
 }
 
 
