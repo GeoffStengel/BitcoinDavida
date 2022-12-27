@@ -25,11 +25,11 @@ p {
 nav{
 	display: grid;
 	max-height: 70px;
-	max-width: 900px;
+	max-width: 850px;
 	grid-template-columns: repeat(4, minmax(50px, 50px));
 	grid-auto-rows: repeat(10, minmax(80px, .4fr));
 	margin: 0 auto;
-    margin: 0 10px 10px 10px;
+   /** margin: 0 10px 10px 10px;**/
 	grid-gap: 3%;
 	padding: 10px;
 	justify-content: center;
@@ -65,9 +65,10 @@ nav{
 }
 
 /****Grid With Main Items in*****/
+
 #content {
 	display: grid;
-	max-width: 900px;
+	max-width: 850px;
 	max-height: 120vh;
 	grid-template-columns: repeat(8, 80px);
 	grid-template-rows: repeat(6, 110px);
@@ -82,11 +83,12 @@ nav{
 	box-shadow: 0 0 10px black;
 }
 
+
 section{
-	background-color: #ddd; /***background**/
+	background-color: #ddd; 
 	background-position: center;
     max-height: 160;
-	max-width: 900px;
+	max-width: 890px;
 	background-size: cover;
 	background-repeat: no-repeat;
     margin: 0 auto;
@@ -97,6 +99,8 @@ section{
     justify-content: center;
 	align-content: center;
 }
+
+
 
 /***Nav Icons*****/
 .box.nav1, .box.nav2, .box.nav3, .box.nav4{
@@ -221,6 +225,15 @@ section{
 .box28{
 	background-image: url(/images/ascii_gen_icon.png);
 }
+.box30{
+	background-image: url(/images/counterparty_icon.png);
+}
+.box31{
+	background-image: url(/images/counterwallet_icon.png);
+}
+.box32{
+	background-image: url(/images/unchained_podcast_icon.png);
+}
 .box33{
 	background-image: url(/images/uphold_icon.png);
 }
@@ -266,6 +279,16 @@ section{
 .box47{
 	background-image: url(/images/bitcoin.svg);
 }
+.box48{
+	background-image: url(/images/uniswap_icon.png);
+}
+.box49{
+	background-image: url(/images/1inch_icon.png);
+}
+.box50{
+	background-image: url(/images/pancakeswap_icon.png);
+}
+
 /*****************Media Query 878*************************************/
 @media screen and (max-width: 902px) {
 #content {
@@ -281,13 +304,13 @@ section{
 @media screen and (max-width: 719px) {
 	/**Content is grid holding the 40 icons*****/
 #content {
-    max-height: 170vh;
+    max-height: 135vh;
 	grid-template-columns: repeat(6, 80px);
 	grid-template-rows: repeat(7, 110px);
 }
 
 section{
-	height: 165vh;
+	height: 145vh;
 }
 }
 
@@ -300,7 +323,7 @@ section{
 }
 
 section{
-	height: 200vh;
+	height: 175vh;
 }
 }
 
@@ -309,12 +332,12 @@ section{
 #content {
 	max-height: 238;
 	grid-template-columns: repeat(4, 80px);
-	grid-template-rows: repeat(11, 110px);
+	grid-template-rows: repeat(12, 110px);
 	
 }
 
 section{
-	height: 240vh;
+	height: 230vh;
 }
 }
 
@@ -329,7 +352,7 @@ section{
 }
 
 section{
-	height: 305vh;
+	height: 335vh;
 }
 
 nav{
@@ -342,18 +365,21 @@ nav{
 @media screen and (max-width: 335px) {
 #content {
     column-gap: 6%;
-    }
+}
+section{
+	height: 395vh;
+}
 }
 /*****************Media Query 300px*************************************/
 @media screen and (max-width: 310px) {
 #content {
 	height: 95%;
 	grid-template-columns: repeat(2, 80px);
-	grid-template-rows: repeat(21, 110px);
+	grid-template-rows: repeat(24, 110px);
 }
 
 section{
-	height: 430vh;
+	height: 410vh;
 }
 }
 /**************Media**Queries**Finish**********************************/
