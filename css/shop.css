@@ -44,11 +44,11 @@ section{
 	background-repeat: no-repeat;
     margin: 0 auto;
 	margin-top: 10px;
-	margin-bottom:10px;
+	margin-bottom: 10px;
 	padding: 10px 0 10px 0;
 	border-radius: 10px;
 }
-
+ 
 /********Nav**Area**Start*******************************/
 .nav{
 	display: grid;
@@ -101,6 +101,11 @@ section{
 	width: 40px;
 	margin: 0 auto;
 	box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);
+}
+
+.box29:active, .box30:active, .box31:active, .box32:active {
+	height: 35px;
+	width: 35px;
 }
 
 .container{

@@ -1,0 +1,359 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+    background: rgb(23, 20, 31);
+}
+
+p, a , div{
+	text-decoration: none;
+	font-size: 12px;
+    text-align: center;
+    color: #ddd;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/****Grid**For**NAV***********/
+nav{
+	display: grid;
+	max-height: 70px;
+	max-width: 900px;
+	grid-template-columns: repeat(4, minmax(50px, 50px));
+	grid-auto-rows: repeat(10, minmax(80px, .4fr));
+	margin: 0 auto;
+    margin: 0 10px 10px 10px;
+	grid-gap: 3%;
+	padding: 10px;
+	justify-content: center;
+	align-content: center;
+	border-radius: 10px;
+	background-color: rgb(23, 20, 31);
+    box-shadow: 0 0 10px black;
+}
+
+/****Controls Text Inside Little Grid Cards**/
+#content p {
+	text-align: center;
+	text-justify: center;
+	margin: 0 auto;
+	margin-top: 12px;
+    margin-bottom: 12px;
+	line-height: 10px;
+    font-family: 18thCentury;
+	color: rgb(23, 20, 31);
+}
+
+/***Anchor Tag thats in main grid BKGD little Cards &*****/
+#content a {
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+/***Behind*icon*images*but*Looks*like*is*the*icons********/
+#content div{
+	background-color: #ddd;
+}
+
+/****Grid With Main Items in*****/
+#content {
+	display: grid;
+	max-width: 900px;
+	max-height: 120vh;
+	grid-template-columns: repeat(8, 80px);
+	grid-template-rows: repeat(6, 110px);
+	justify-content: center; 
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	grid-gap: 3%;
+	grid-row-gap: 20px;
+    background-color: rgb(23, 20, 31);
+	box-shadow: 0 0 10px black;
+}
+
+section{
+	background-color: #ddd; /***background**/
+	background-position: center;
+    max-height: 160;
+	max-width: 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+    justify-content: center;
+	align-content: center;
+}
+
+/***Nav Icons*****/
+.box.nav1, .box.nav2, .box.nav3, .box.nav4{
+    height: 40px;
+    width: 40px;
+	justify-content: center;
+	align-content: center;
+    padding: 5px;
+	box-shadow: 0 0 10px black;
+}
+
+.box {
+    height: 65px;
+    width: 65px;
+    border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0 0 10px black;
+	background-color: #ddd;
+    text-align: center;	
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /** box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);**/
+}
+
+/*******NAV*Icons***Start*****************/
+.nav1{
+	background-image: url(../images/home_icon.jpg);
+}
+.nav2{
+	background-image: url(../images/chart_icon.jpg);
+}
+.nav3{
+	background-image: url(../images/brain_icon.jpg);
+}
+.nav4{
+	background-image: url(../images/blog_icon.png);		
+}
+/*******NAV*Icons***Finish*****************/
+
+.box1{
+	background-image: url(/images/coinbase_icon.png);
+}
+.box2{
+	background-image: url(/images/trezor_icon.png);
+}	
+.box3{
+	background-image: url(/images/ledger_icon.png);
+}	
+.box4{
+	background-image: url(/images/binance_coin.png);
+} 
+.box6{
+	background-image: url(/images/metamask_icon_150x150.png);	
+}
+.box7{
+	background-image: url(/images/manifold_icon_150x150.png);	
+}	
+.box8{
+	background-image: url(/images/livecoinwatch_icon.png);	
+}
+.box9{
+	background-image: url(/images/tradingview_icon.png);	
+}
+.box10{
+	background-image: url(/images/atomic_wallet.png);	
+}
+.box11{
+	background-image: url(/images/bitrue_icon.png);	
+}	
+.box12{
+	background-image: url(/images/brave_icon.png);	
+}
+.box13{
+	background-image: url(/images/trustwallet_icon.png);	
+}
+.box14{
+	background-image: url(/images/imNotArt_icon.png);	
+}	
+.box15{
+	background-image: url(/images/github_icon.png);	
+}		
+.box16{
+	background-image: url(/images/coin_atm_radar.png);	
+}
+.box17{
+	background-image: url(/images/bitpay_icon.png);	
+}		
+.box18{
+	background-image: url(/images/discord_icon.png);
+}
+.box19{
+	background-image: url(/images/brave_lion.png);
+}
+.box20{
+	background-image: url(/images/coingecko_icon.png);
+}
+.box21{
+	background-image: url(/images/coinmarketcap_icon.png);
+}
+.box22{
+	background-image: url(/images/opensea_icon.png);
+}
+.box23{
+	background-image: url(/images/rarible_icon.png);
+}
+.box24{
+	background-image: url(/images/looksrare_icon.png);
+}
+.box25{
+	background-image: url(/images/makersplace_icon.png);
+}
+.box26{
+	background-image: url(/images/superrare_icon.png);
+}
+.box27{
+	background-image: url(/images/niftygateway_icon.png);
+}
+.box28{
+	background-image: url(/images/ascii_gen_icon.png);
+}
+.box33{
+	background-image: url(/images/uphold_icon.png);
+}
+.box34{
+	background-image: url(/images/phantom_icon.png);
+}
+.box35{
+	background-image: url(/images/ethereum_icon.png);
+}
+.box36{
+	background-image: url(/images/solidity_lang_icon.png);
+}
+.box37{
+	background-image: url(/images/cryptozombies_icon.png);
+}
+.box38{
+	background-image: url(/images/solidity_lang_icon.png);
+}
+.box39{
+	background-image: url(/images/infinite_objects_icon.png);
+}
+.box40{
+	background-image: url(/images/truffle_suite_icon.png);
+} 
+.box41{
+	background-image: url(/images/hardhat_icon.png);
+}
+.box42{
+	background-image: url(/images/remix_icon.png);
+}
+.box43{
+	background-image: url(/images/vyper_icon.png);
+}
+.box44{
+	background-image: url(/images/Brownie_icon.png);
+}
+.box45{
+	background-image: url(/images/localbitcoins_icon.png);
+}
+.box46{
+	background-image: url(/images/bitcointalk_icon.png);
+}
+.box47{
+	background-image: url(/images/bitcoin.svg);
+}
+/*****************Media Query 878*************************************/
+@media screen and (max-width: 902px) {
+#content {
+	grid-template-columns: repeat(7, 80px);
+	grid-template-rows: repeat(6, 110px);
+}
+section{
+    margin-top: 0;
+}
+}
+
+/*****************Media Query 719*************************************/
+@media screen and (max-width: 719px) {
+	/**Content is grid holding the 40 icons*****/
+#content {
+    max-height: 170vh;
+	grid-template-columns: repeat(6, 80px);
+	grid-template-rows: repeat(7, 110px);
+}
+
+section{
+	height: 165vh;
+}
+}
+
+/*****************Media Query 602px*************************************/
+@media screen and (max-width: 602px) {
+#content {
+	max-height: 210vh;
+	grid-template-columns: repeat(5, 80px);
+	grid-template-rows: repeat(9, 110px);
+}
+
+section{
+	height: 200vh;
+}
+}
+
+/*****************Media Query 494*************************************/
+@media screen and (max-width: 494px) {
+#content {
+	max-height: 238;
+	grid-template-columns: repeat(4, 80px);
+	grid-template-rows: repeat(11, 110px);
+	
+}
+
+section{
+	height: 240vh;
+}
+}
+
+/*****************Media Query 391px*************************************/
+@media screen and (max-width: 391px) {
+#content {
+	max-height: 100%;
+	grid-template-columns: repeat(3, 80px);
+	grid-template-rows: repeat(14, 110px);
+	column-gap: 9%;
+    padding-top: 20px;
+}
+
+section{
+	height: 305vh;
+}
+
+nav{
+    grid-template-columns: repeat(4, minmax(50px, 70px));
+    gap: 1%;
+}
+}
+
+/*****************Media Query 335px*************************************/
+@media screen and (max-width: 335px) {
+#content {
+    column-gap: 6%;
+    }
+}
+/*****************Media Query 300px*************************************/
+@media screen and (max-width: 310px) {
+#content {
+	height: 95%;
+	grid-template-columns: repeat(2, 80px);
+	grid-template-rows: repeat(21, 110px);
+}
+
+section{
+	height: 430vh;
+}
+}
+/**************Media**Queries**Finish**********************************/

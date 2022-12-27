@@ -50,7 +50,7 @@ section{
 }
 
 #content div{
-      background-color: purple;
+    background-color: purple;
 	/**  padding: 25px; **/
 	padding: 5px;
 }
@@ -132,7 +132,7 @@ section{
 /**************************************************/
 /*******Mobile Devices ***************************/
 /**************************************************/
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 460px) {
 
 /***********Section Body Grid Area***************************************/	
 section{
