@@ -69,7 +69,6 @@ nav{
 #content {
 	display: grid;
 	max-width: 850px;
-	/**max-height: 120vh;**/
 	max-height: 100%;
 	/**grid-template-columns: repeat(8, 80px);**/
 	/**grid-template-rows: repeat(6, 110px);**/
@@ -228,6 +227,9 @@ section{
 .box28{
 	background-image: url(/images/ascii_gen_icon.png);
 }
+.box29{
+	background-image: url(/images/etherscan_icon.png);
+}
 .box30{
 	background-image: url(/images/counterparty_icon.png);
 }
@@ -290,5 +292,17 @@ section{
 }
 .box50{
 	background-image: url(/images/pancakeswap_icon.png);
+}
+.box51{
+	background-image: url(/images/vscode_icon.png);
+}
+.box52{
+	background-image: url(/images/manifold_tutorials_icon.png);
+}
+.box53{
+	background-image: url(/images/certik_icon.png);
+} 
+.box54{
+	background-image: url(/images/infura_icon.png);
 }
 
