@@ -69,9 +69,12 @@ nav{
 #content {
 	display: grid;
 	max-width: 850px;
-	max-height: 120vh;
-	grid-template-columns: repeat(8, 80px);
-	grid-template-rows: repeat(6, 110px);
+	/**max-height: 120vh;**/
+	max-height: 100%;
+	/**grid-template-columns: repeat(8, 80px);**/
+	/**grid-template-rows: repeat(6, 110px);**/
+	grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+	grid-auto-rows: 110px;
 	justify-content: center; 
 	margin: 0 auto;
 	margin-top: 10px;
@@ -87,7 +90,7 @@ nav{
 section{
 	background-color: #ddd; 
 	background-position: center;
-    max-height: 160;
+    min-height: 100%;
 	max-width: 890px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -289,97 +292,3 @@ section{
 	background-image: url(/images/pancakeswap_icon.png);
 }
 
-/*****************Media Query 878*************************************/
-@media screen and (max-width: 902px) {
-#content {
-	grid-template-columns: repeat(7, 80px);
-	grid-template-rows: repeat(6, 110px);
-}
-section{
-    margin-top: 0;
-}
-}
-
-/*****************Media Query 719*************************************/
-@media screen and (max-width: 719px) {
-	/**Content is grid holding the 40 icons*****/
-#content {
-    max-height: 135vh;
-	grid-template-columns: repeat(6, 80px);
-	grid-template-rows: repeat(7, 110px);
-}
-
-section{
-	height: 145vh;
-}
-}
-
-/*****************Media Query 602px*************************************/
-@media screen and (max-width: 602px) {
-#content {
-	max-height: 210vh;
-	grid-template-columns: repeat(5, 80px);
-	grid-template-rows: repeat(9, 110px);
-}
-
-section{
-	height: 175vh;
-}
-}
-
-/*****************Media Query 494*************************************/
-@media screen and (max-width: 494px) {
-#content {
-	max-height: 238;
-	grid-template-columns: repeat(4, 80px);
-	grid-template-rows: repeat(12, 110px);
-	
-}
-
-section{
-	height: 240vh;
-}
-}
-
-/*****************Media Query 391px*************************************/
-@media screen and (max-width: 391px) {
-#content {
-	max-height: 100%;
-	grid-template-columns: repeat(3, 80px);
-	grid-template-rows: repeat(14, 110px);
-	column-gap: 9%;
-    padding-top: 20px;
-}
-
-section{
-	height: 335vh;
-}
-
-nav{
-    grid-template-columns: repeat(4, minmax(50px, 70px));
-    gap: 1%;
-}
-}
-
-/*****************Media Query 335px*************************************/
-@media screen and (max-width: 335px) {
-#content {
-    column-gap: 6%;
-}
-section{
-	height: 395vh;
-}
-}
-/*****************Media Query 300px*************************************/
-@media screen and (max-width: 310px) {
-#content {
-	height: 95%;
-	grid-template-columns: repeat(2, 80px);
-	grid-template-rows: repeat(24, 110px);
-}
-
-section{
-	height: 410vh;
-}
-}
-/**************Media**Queries**Finish**********************************/
