@@ -17,8 +17,14 @@ p, a , div{
     color: #ddd;
 }
 
+/****Text Throughout Website*******/
 p {
     margin-top: 10px;
+}
+
+/***Text*Inside*Just*NAV*Bar*******/
+nav p {
+	margin-top: 5px;
 }
 
 /****Grid**For**NAV***********/
@@ -65,7 +71,6 @@ nav{
 }
 
 /****Grid With Main Items in*****/
-
 #content {
 	display: grid;
 	max-width: 850px;
@@ -129,6 +134,17 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
    /** box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);**/
+}
+
+.box:active{
+	height: 45px;
+	width: 45px;
+}
+
+/***Action NAV Buttons Get Smaller When Clicked**********/
+.box.nav1:active, .box.nav2:active, .box.nav3:active, .box.nav4:active{
+	height: 35px;
+	width: 35px;
 }
 
 /*******NAV*Icons***Start*****************/
