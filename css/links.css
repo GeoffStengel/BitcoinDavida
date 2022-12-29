@@ -137,8 +137,8 @@ section{
 }
 
 .box:active{
-	height: 45px;
-	width: 45px;
+	height: 50px;
+	width: 50px;
 }
 
 /***Action NAV Buttons Get Smaller When Clicked**********/

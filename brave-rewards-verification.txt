@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bitcoindavida.com
+Token: 5a9bb7e3ef22b4445784bde61207f0a456b201b282b221f3604b997c6113af68
