@@ -24,8 +24,15 @@ p, a , div{
 	font-size: 12px;
 }
 
-/***********Section Body Grid Area***************************************/
 
+#btc_price_img {
+	height: 30px;
+	width: 30px;
+	background-color: steelblue;
+}
+
+
+/***********Section Body Grid Area***************************************/
 section{
 /**	background-image: url(/images/ipad_primary_color.png);***/
 	/***Took The Image Out And Used A img Tag In HTML Under .test********/
