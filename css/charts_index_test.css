@@ -1,0 +1,283 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+    background: rgb(23, 20, 31);
+}
+
+p, a , div{
+	text-decoration: none;
+	font-size: 12px;
+    text-align: center;
+    color: #ddd;
+}
+
+/****Text Throughout Website*******/
+p {
+    margin-top: 10px;
+}
+
+/***Text*Inside*Just*NAV*Bar*******/
+nav p {
+	margin-top: 5px;
+}
+
+/****Grid**For**NAV***********/ 
+nav{
+	display: grid;
+	max-height: 70px;
+	max-width: 850px;
+	grid-template-columns: repeat(4, minmax(50px, 50px));
+	grid-auto-rows: repeat(10, minmax(80px, .4fr));
+	margin: 0 auto;
+   /** margin: 0 10px 10px 10px;**/
+	grid-gap: 3%;
+	padding: 10px;
+	justify-content: center;
+	align-content: center;
+	border-radius: 10px;
+	background-color: rgb(23, 20, 31);
+    box-shadow: 0 0 10px black;
+}
+
+/****Controls Text Inside Little Grid Cards**/
+#content p {
+	text-align: center;
+	text-justify: center;
+	margin: 0 auto;
+	margin-top: 12px;
+    margin-bottom: 12px;
+	line-height: 10px;
+    font-family: 18thCentury;
+	color: rgb(23, 20, 31);
+}
+
+/***Anchor Tag thats in main grid BKGD little Cards &*****/
+#content a {
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+/***Behind*icon*images*but*Looks*like*is*the*icons********/
+#content div{
+	background-color: #ddd;
+}
+
+/****Grid With Main Items in*****/
+#content {
+	display: grid;
+	max-width: 850px;
+	max-height: 100%;
+	/**grid-template-columns: repeat(8, 80px);**/
+	/**grid-template-rows: repeat(6, 110px);**/
+	grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+	grid-auto-rows: 110px;
+	justify-content: center; 
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	grid-gap: 3%;
+	grid-row-gap: 20px;
+    background-color: rgb(23, 20, 31);
+	box-shadow: 0 0 10px black;
+	
+}
+
+ 
+section{
+	background-color: #ddd; 
+	background-position: center;
+    min-height: 100%;
+	max-width: 690px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+    justify-content: center;
+	align-content: center;
+}
+
+
+/***Nav Icons*****/
+.box.nav1, .box.nav2, .box.nav3, .box.nav4{
+    height: 40px;
+    width: 40px;
+	justify-content: center;
+	align-content: center;
+    padding: 5px;
+	box-shadow: 0 0 10px black;
+}
+
+.box {
+    height: 65px;
+    width: 65px;
+    border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0 0 10px black;
+	background-color: #ddd;
+    text-align: center;	
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /** box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);**/
+}
+
+.box:active{
+	height: 50px;
+	width: 50px;
+}
+
+/***Action NAV Buttons Get Smaller When Clicked**********/
+.box.nav1:active, .box.nav2:active, .box.nav3:active, .box.nav4:active{
+	height: 35px;
+	width: 35px;
+}
+
+/*******NAV*Icons***Start*****************/
+.nav1{
+	background-image: url(../images/home_icon.jpg);
+}
+.nav2{
+	background-image: url(../images/chart_icon.jpg);
+}
+.nav3{
+	background-image: url(../images/brain_icon.jpg);
+}
+.nav4{
+	background-image: url(../images/blog_icon.png);		
+}
+/*******NAV*Icons***Finish*****************/
+
+
+
+
+/********
+.box1{
+	background-image: url(/images/coinbase_icon.png);}
+.box2{
+	background-image: url(/images/trezor_icon.png);}	
+.box3{
+	background-image: url(/images/ledger_icon.png);}	
+.box4{
+	background-image: url(/images/binance_coin.png);} 
+.box6{
+	background-image: url(/images/metamask_icon_150x150.png);	}
+.box7{
+	background-image: url(/images/manifold_icon_150x150.png);	}	
+.box8{
+	background-image: url(/images/livecoinwatch_icon.png);	}
+.box9{
+	background-image: url(/images/tradingview_icon.png);	}
+.box10{
+	background-image: url(/images/atomic_wallet.png);	}
+.box11{
+	background-image: url(/images/bitrue_icon.png);	}	
+.box12{
+	background-image: url(/images/brave_icon.png);	}
+.box13{
+	background-image: url(/images/trustwallet_icon.png);	}
+.box14{
+	background-image: url(/images/imNotArt_icon.png);	}	
+.box15{
+	background-image: url(/images/github_icon.png);	}		
+.box16{
+	background-image: url(/images/coin_atm_radar.png);	}
+.box17{
+	background-image: url(/images/bitpay_icon.png);	}		
+.box18{
+	background-image: url(/images/discord_icon.png);}
+.box19{
+	background-image: url(/images/brave_lion.png);}
+.box20{
+	background-image: url(/images/coingecko_icon.png);}
+.box21{
+	background-image: url(/images/coinmarketcap_icon.png);}
+.box22{
+	background-image: url(/images/opensea_icon.png);}
+.box23{
+	background-image: url(/images/rarible_icon.png);}
+.box24{
+	background-image: url(/images/looksrare_icon.png);}
+.box25{
+	background-image: url(/images/makersplace_icon.png);}
+.box26{
+	background-image: url(/images/superrare_icon.png);}
+.box27{
+	background-image: url(/images/niftygateway_icon.png);}
+.box28{
+	background-image: url(/images/ascii_gen_icon.png);}
+.box29{
+	background-image: url(/images/etherscan_icon.png);}
+.box30{
+	background-image: url(/images/counterparty_icon.png);}
+.box31{
+	background-image: url(/images/counterwallet_icon.png);}
+.box32{
+	background-image: url(/images/unchained_podcast_icon.png);}
+.box33{
+	background-image: url(/images/uphold_icon.png);}
+.box34{
+	background-image: url(/images/phantom_icon.png);}
+.box35{
+	background-image: url(/images/ethereum_icon.png);}
+.box36{
+	background-image: url(/images/solidity_lang_icon.png);}
+.box37{
+	background-image: url(/images/cryptozombies_icon.png);}
+.box38{
+	background-image: url(/images/solidity_lang_icon.png);}
+.box39{
+	background-image: url(/images/infinite_objects_icon.png);}
+.box40{
+	background-image: url(/images/truffle_suite_icon.png);} 
+.box41{
+	background-image: url(/images/hardhat_icon.png);}
+.box42{
+	background-image: url(/images/remix_icon.png);}
+.box43{
+	background-image: url(/images/vyper_icon.png);}
+.box44{
+	background-image: url(/images/brownie_icon.png);}
+.box45{
+	background-image: url(/images/localbitcoins_icon.png);}
+.box46{
+	background-image: url(/images/bitcointalk_icon.png);}
+.box47{
+	background-image: url(/images/bitcoin.svg);}
+.box48{
+	background-image: url(/images/uniswap_icon.png);}
+.box49{
+	background-image: url(/images/1inch_icon.png);}
+.box50{
+	background-image: url(/images/pancakeswap_icon.png);}
+.box51{
+	background-image: url(/images/vscode_icon.png);}
+.box52{
+	background-image: url(/images/manifold_tutorials_icon.png);}
+.box53{
+	background-image: url(/images/certik_icon.png);} 
+.box54{
+	background-image: url(/images/infura_icon.png);}
+.box55{
+	background-image: url(/images/openzeppelin_icon.png);}
+.box56{
+	background-image: url(/images/ethereum_name_service_icon.png);}
+.box57{
+	background-image: url(/images/web3PY_icon.png);}
+.box58{
+	background-image: url(/images/goerli_icon.png);}
+***/
