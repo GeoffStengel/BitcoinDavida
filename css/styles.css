@@ -180,14 +180,23 @@ p{
 /*****************Media Query Tablets*************************************/
 @media screen and (max-width: 480px){
 #buy_now{
-	float: bottom;
-	align-content: bottom;
-	background: #3d1a2b9a;
+	background: #0075D9;
 	height: 100%;
 	max-width: 480px;
 	border-radius: 10px;
 	margin: 0 auto;
-	margin-top: 10%;
+	margin-top: 45%;
+
 	}
+
+#buy_now p{
+	height: 50px;
+	text-align: center;
+	text-justify: center;
+	margin: 0 auto;
+	padding: 0;
+	align-items: center;
+	justify-items: center;
+ }
 }
 
