@@ -16,8 +16,6 @@ section{
 	background-position: center;
 	height: 100%;
 	max-width: 920px;
-	background-size: cover;
-	background-repeat: no-repeat;
     margin: 0 auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -80,15 +78,13 @@ header{
 .box32{background-image: url(../images/blog_icon.png);}
 /****Nav Images Finish*****/
 
+/**Box*Controls**Nav Icons*Area**/
 .box{
 	border-radius: 10px;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;	
 	padding: 5px;
-}
-
-.box0, .box30, .box31, .box32 {
 	height: 35px;
 	width: 35px;
 	margin: 0 auto;
@@ -105,9 +101,7 @@ header{
 	display: grid;
 	max-height: 100%;
 	max-width: 920px;
-	grid-template-columns: repeat(3, minmax(200px, auto));
 	grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-	/**grid-auto-rows: repeat(4, minmax(250px, auto));**/
 	grid-auto-rows: repeat(10, minmax(80px, .4fr));
 	margin: 0 auto;
 	margin: 10px 10px 0 10px;	
@@ -143,9 +137,7 @@ img{
 	box-shadow: 0 0 5px black;
 }
 
-
 /****Text**inside**or**below**content**boxes*******/
-
 a{
 	text-decoration: none;	
 }
@@ -174,9 +166,6 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-
-
 
 /*****Tipbot settings**start****/
 .baconwrap{
@@ -217,57 +206,57 @@ a{
 .tipbot p{
 	opacity: 0;
 }
-
-/**
-.blog9{
-	background-color: green;
-}**/
 /*******Tipbot settings**finish*********/
-     /***************************************/
-	 @media screen and (max-width: 650px){
-		.container{
-			display: grid;
-			grid-template-columns: repeat(2, minmax(200px, auto));
-		 }
-		}
-			  /***************************************/
-		@media screen and (max-width: 500px){
-		.container{
-			display: grid;
-			grid-template-columns: repeat(1, minmax(100px, auto));
-		 }
-		.nav{
-				grid-template-columns: repeat(4, minmax(70px, 70px));
-		 }
-		}
-			 /***************************************/	
-		@media screen and (max-width: 347px){
-		.nav{
-				grid-template-columns: repeat(4, minmax(50px, 50px));
-		 }
-		}
-		
+
+
+     /***********Media Queries*******************/
+@media screen and (max-width: 650px){
+	.container{
+		display: grid;
+		grid-template-columns: repeat(2, minmax(200px, auto));
+	}
+}
 		/***************************************/
-		@media screen and (max-width: 255px){
-		.buy_now{
-			width: 100%;
-		 }
+@media screen and (max-width: 450px){
+.container{
+	display: grid;
+	grid-template-columns: repeat(2, minmax(100px, auto));
+}
+.nav{
+	grid-template-columns: repeat(4, minmax(70px, 70px));
+ }
+}
+		/***************************************/	
+@media screen and (max-width: 383px){
+.nav{
+	grid-template-columns: repeat(4, minmax(50px, 50px));
+ }
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(1, minmax(100px, auto));
+} 
+}
 		
-		 .box0, .box30, .box31, .box32 {
-			height: 30px;
-			width: 30px;
-			margin: 0 auto;
-			box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);
-		} 
-		}	
+/***************************************/
+@media screen and (max-width: 255px){
+.buy_now{
+	width: 100%;
+	}
 		
-			/***************************************/
-		@media screen and (max-width: 255px){
-		.nav{
-			grid-template-columns: repeat(4, minmax(50px, 50px));
-			grid-gap: 5px;
-		}
-		.nav p{
-			font-size: 14px;
-		 }
-		}
+.box0, .box30, .box31, .box32 {
+	height: 30px;
+	width: 30px;
+ } 
+}	
+		
+	/***************************************/
+@media screen and (max-width: 255px){
+.nav{
+	grid-template-columns: repeat(4, minmax(50px, 50px));
+	grid-gap: 5px;
+}
+.nav p{
+	font-size: 14px;
+	}
+}
