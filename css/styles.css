@@ -17,7 +17,7 @@ body, html{
 body{
 	background-position: center;
     min-height: 100%;
-	max-width: 600px;
+	max-width: 500px;
 	background-size: cover;
 }
 
@@ -49,9 +49,9 @@ section{
 /*****Main Grid Holding All The Cards*******/
 #content {
 	display: grid;
-	max-width: 850px;
+	max-width: 500px;
 	max-height: 100%;
-	grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
 	grid-auto-rows: 110px;
 	justify-content: center; 
 	margin: 0 auto;
@@ -92,8 +92,8 @@ p{
 }
 
 .box {
-    height: 65px;
-    width: 65px;
+    height: 58px;
+    width: 58px;
     border-radius: 10px;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -144,12 +144,12 @@ p{
 	max-width: 850px;
 	border-radius: 10px;
 	margin: 0 auto;
-	margin-top: 90%;
+	margin-top: 70%;
 }
 
 #buy_now p{
 	display: grid;
-	max-width: 850px;
+	max-width: 500px;
 	max-height: 100%;
 	grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 	grid-auto-rows: 100%; 
@@ -178,13 +178,13 @@ p{
 
 
 /*****************Media Query Tablets*************************************/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
 #buy_now{
 	float: bottom;
 	align-content: bottom;
 	background: #3d1a2b9a;
 	height: 100%;
-	max-width: 850px;
+	max-width: 480px;
 	border-radius: 10px;
 	margin: 0 auto;
 	margin-top: 10%;
