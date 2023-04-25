@@ -26,12 +26,12 @@ p, a, div{
 	font-size: 14px;
 	font-family: Poppins, Arial, Helvetica, sans-serif;
 }
-
+ 
 /***Section Main Grid Area****STARTS************/
 section{
 	background-color: #ddd; 
 	background: url('../images/bitcoin.svg') no-repeat;
-	background-color: aqua;
+	background-color: #0075D9; /****#00ffff****/
 	background-position: center;
     min-height: 98%;
 	width: 90%;
@@ -42,6 +42,7 @@ section{
 	border-radius: 10px;
     justify-content: center;
 	align-content: center;
+	
 }
 /******Section Body Grid Area**ENDS******/
  
@@ -54,13 +55,12 @@ section{
 	grid-auto-rows: 110px;
 	justify-content: center; 
 	margin: 0 auto;
-	margin-top: 10px;
 	border-radius: 10px;
 	padding: 10px;
 	grid-gap: 3%;
 	grid-row-gap: 20px;
     background-color: rgb(23, 20, 31);
-	background-color: #3d1a2b;
+	background-color: #3d1a2b9a; /***#3d1a2b*****/
 	box-shadow: 0 0 10px black;
 }
 
@@ -135,12 +135,13 @@ p{
 .box2{background-image: url(../images/xrp_logo.jpg);}
 .box4{background-image: url(../images/binance_coin.png);}
 
+
 #buy_now{
-	align-content: bottom;
-	background: blueviolet;
-	height: 100%;
-	max-width: 100%;
 	float: bottom;
+	align-content: bottom;
+	background: #0075D9;
+	height: 100%;
+	max-width: 850px;
 	border-radius: 10px;
 	margin: 0 auto;
 	margin-top: 90%;
@@ -151,18 +152,23 @@ p{
 	max-width: 850px;
 	max-height: 100%;
 	grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-	grid-auto-rows: 100%;
-	justify-content: center; 
+	grid-auto-rows: 100%; 
 	margin: 0 auto;
-	margin-top: 10px;
+	margin-top: 10%;
 	border-radius: 10px;
 	padding: 10px;
     background-color: rgb(23, 20, 31);
-	background-color: #3d1a2b;
+	background-color: #3d1a2b9a;
 	box-shadow: 0 0 10px black;
 	text-align: center;
 	text-justify: center;
-	font-size: 30px;
+	justify-content: center;
+	font-size: 26px;
+	letter-spacing:2px;
+	float: bottom;
+	border-style: outset;
+	border-width: 3px;
+    border-color:  gold; /* red */
 }
 
 #buy_now:active{
@@ -170,12 +176,18 @@ p{
 	width: 98%;
 }
 
-#Buy_Now_section{
-	background-color:#ddd;
-	border-radius: 10px;
-}
-
 
 /*****************Media Query Tablets*************************************/
-
+@media screen and (max-width: 600px){
+#buy_now{
+	float: bottom;
+	align-content: bottom;
+	background: #3d1a2b9a;
+	height: 100%;
+	max-width: 850px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10%;
+	}
+}
 
