@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <polygon points="75 3.1 74 6.4 74 101.4 75 102.4 119.1 76.3 75 3.1" fill="#343434"/>
+  <polygon points="75 3.1 30.9 76.3 75 102.4 75 56.3 75 3.1" fill="#8c8c8c"/>
+  <polygon points="75 110.8 74.4 111.4 74.4 145.3 75 146.9 119.1 84.7 75 110.8" fill="#3d3d3c"/>
+  <polygon points="75 146.9 75 110.8 30.9 84.7 75 146.9" fill="#8c8c8c"/>
+  <polygon points="75 102.4 119.1 76.3 75 56.3 75 102.4" fill="#161616"/>
+  <polygon points="30.9 76.3 75 102.4 75 56.3 30.9 76.3" fill="#3a3a39"/>
+</svg>

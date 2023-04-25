@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="bat_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <path d="m1.6,138.1l43.5-25.3,30-51.9V10.8c-.8,0-1.6.5-2.2,1.6l-35.5,61.5L1.8,135.4c-.6,1-.7,2-.3,2.7" fill="#f04c2e" fill-rule="evenodd"/>
+  <path d="m75,10.8v50.1l30,51.9,43.5,25.3c.4-.7.3-1.6-.3-2.7l-35.5-61.5L77.2,12.4c-.6-1-1.4-1.6-2.2-1.6" fill="#9e2064" fill-rule="evenodd"/>
+  <path d="m148.4,138.1l-43.5-25.3h-59.9L1.6,138.1c.4.7,1.2,1.1,2.4,1.1h142c1.2,0,2-.4,2.4-1.1" fill="#67308f" fill-rule="evenodd"/>
+  <path d="m45,112.8h59.9l-30-51.9-30,51.9h0Z" fill="#fff" fill-rule="evenodd"/>
+</svg>
