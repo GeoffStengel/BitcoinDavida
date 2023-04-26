@@ -26,12 +26,13 @@ text-decoration: none;
 }
 
 p{
-	font-size: 20px;
-	line-height: 10px;
+	font-size: 18px;
+	line-height: 24px;
 	word-spacing: 8px;
 	color: black;
-	font-family: 18thCentury;
+	font-family: helvetica;
 	margin-top: 10px;
+	
 }
 
 /****Background Section Behind Content and Nav******************/
@@ -132,6 +133,7 @@ section{
 	  background-color: #ddd;
 }
 
+/**
 .container div:nth-child(5n + 1){
 	 background-color: #4ea2ea;
 	 background-color: #ddd;
@@ -155,22 +157,11 @@ section{
 .container div:nth-child(5n + 5){
 	background-color: #c9b7eb;
 	background-color: #ddd;
-}
-.box29{
-	background-image: url(../images/home_icon.jpg);
-}
-
-.box30{
-	background-image: url(../images/chart_icon.jpg);
-}
-
-.box31{
-	background-image: url(../images/brain_icon.jpg);
-}
-
-.box32{
-	background-image: url(../images/blog_icon.png);		
-}
+}**/
+.box29{background-image: url(../images/home_icon.jpg);}
+.box30{background-image: url(../images/chart_icon.jpg);}
+.box31{background-image: url(../images/brain_icon.jpg);}
+.box32{background-image: url(../images/blog_icon.png);}
 	
 img{
 	width: 100%;
@@ -183,8 +174,8 @@ img{
 
 .buy_now{
 	width: 50%;
-	
 }
+
       /***************************************/
 @media screen and (max-width: 650px){
 .container{
@@ -209,7 +200,7 @@ img{
 }
 
 }
-
+ 
 /***************************************/
 @media screen and (max-width: 255px){
 .buy_now{

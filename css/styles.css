@@ -85,6 +85,7 @@ section{
 }
 
 p{
+	
 	color: #fff;
 	line-height: 2.5em;
 	letter-spacing:.2em;
@@ -107,7 +108,6 @@ p{
     background-repeat: no-repeat;
    /** box-shadow: 2px 2px 2px 2px rgb(26, 26, 26);**/
 }
-
 
 .box:hover{
 	background-color: hotpink;
