@@ -26,13 +26,13 @@ text-decoration: none;
 }
 
 p{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	word-spacing: 8px;
 	color: black;
-	font-family: helvetica;
+	font-family: 18century;
 	margin-top: 10px;
-	
+	;
 }
 
 /****Background Section Behind Content and Nav******************/
@@ -125,6 +125,7 @@ section{
 	border-radius: 10px;
 	background: rgb(23, 20, 31);
 	box-shadow: 0 0 10px black;
+	
 }
 	
 .container div{
@@ -133,31 +134,7 @@ section{
 	  background-color: #ddd;
 }
 
-/**
-.container div:nth-child(5n + 1){
-	 background-color: #4ea2ea;
-	 background-color: #ddd;
-}
 
-.container div:nth-child(5n + 2){
-	 background-color: #69bf5e;
-	 background-color: #ddd;
-}
-
-.container div:nth-child(5n +3){
-    background-color: #e1b77b;
-	background-color: #ddd;
-}
-
-.container div:nth-child(5n + 4){
-	 background-color: #ba4956;
-	 background-color: #ddd;
-}
-
-.container div:nth-child(5n + 5){
-	background-color: #c9b7eb;
-	background-color: #ddd;
-}**/
 .box29{background-image: url(../images/home_icon.jpg);}
 .box30{background-image: url(../images/chart_icon.jpg);}
 .box31{background-image: url(../images/brain_icon.jpg);}
@@ -175,6 +152,28 @@ img{
 .buy_now{
 	width: 50%;
 }
+
+.description_wrapper{
+	display: grid;
+	grid-template-columns: repeat(1, minmax(70px, auto));
+	grid-auto-rows: repeat(3, 30px);
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	border-radius: 10px;
+	background-color: none;
+}
+
+.description_wrapper img, .description_wrapper div, .description_wrapper p, .description_wrapper a{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	box-shadow: none;
+	
+}
+
+
+
 
       /***************************************/
 @media screen and (max-width: 650px){
