@@ -870,7 +870,7 @@ a{
 /**********Tipbot Settings**Start**********/
 .baconwrap{
 	display: grid;
-	grid-template-columns: repeat(2, minmax(60px, 60px));
+	grid-template-columns: repeat(2, minmax(60px, 90px));
 	grid-template-rows: repeat(1,  minmax(60px, auto));
 	max-width: 700px;
 	text-align: center;
@@ -892,20 +892,26 @@ a{
 	border-radius: 10px;
 }
  
-.tipbot{
-	width: 40px;
-	height: 45px;
-    background-image: url(../images/taco_05.png);
+.tipbot, .footer{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 0 auto;	    
+	margin: 0 auto;
 }
 
-.tipbot {
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat; 
+.tipbot{
+	width: 40px;
+	height: 45px;
+    background-image: url(../images/taco_05.png); 
+}
+
+.taco-text{
+	margin: 0 auto;
+	color: brown;
+	font-size: 12px;
+	width:100%;
+	padding: 0;
+	
 }
 
 .tipbot p{
@@ -915,11 +921,11 @@ a{
 /***********Tipbot settings***finish*********/
 
 .footer{
+	width: 40px;
+	height: 45px;
 	background-image: url(../images/menagerie_icon.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
+
 .footer p{
 	color: #fff;
 	opacity: 0;

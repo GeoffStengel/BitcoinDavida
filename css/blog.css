@@ -170,7 +170,7 @@ a{
 /*****Tipbot settings**start****/
 .baconwrap{
 	display: grid;
-	grid-template-columns:repeat(1, minmax(60px, 60px));
+	grid-template-columns:repeat(1, minmax(60px, 90px));
 	grid-template-rows: repeat(1,  minmax(60px, auto));
 	max-width: 100px;
 	text-align: center;
@@ -200,18 +200,22 @@ a{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 0 auto;
-	color: brown;		    
+	margin: 0 auto;		    
 }
 
-.tipbot {
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0 auto;	  
+.taco-text{
+	margin: 0 auto;
+	color: brown;
+	font-size: 16px;
+	width:100%;
+	padding: 0;
 }
+
 .tipbot p{
-	opacity: 0;
+	width:80px;
+	height: 75px;
+
+	color: black;
 }
 /*******Tipbot settings**finish*********/
 
