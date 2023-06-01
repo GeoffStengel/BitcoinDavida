@@ -194,7 +194,14 @@ a{
 }
 
 .tipbot{
-      background-image: url(../images/xrptibot_icon.jpg);	    
+	width:40px;
+	height: 45px;
+	background-image: url(../images/taco_05.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	color: brown;		    
 }
 
 .tipbot {
